@@ -8,16 +8,21 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
         console.error('Error reading directory:', err);
         return;
     }
+    const readmeItem = []
     const directories = files
         .filter((dirent) => dirent.isDirectory())
         .filter((dirent) => {
             return fs.existsSync(path.join(__dirname, dirent.name, 'app.json'))
         }).map(i => {
-            return path.join(__dirname, i.name, 'app.json')
+            const appConfigPath = path.join(__dirname, i.name, 'app.json')
+            const data = require(appConfigPath)
+            readmeItem.push(`| ${data.name}  | ![小程序码](./${i.name}/qrcode.png) |`)
+            return appConfigPath
         })
     for (const key in directories) {
         const element = directories[key];
         const data = require(element)
+       
         QRCode.toFile(path.join(path.dirname(element), 'qrcode.png'), JSON.stringify(data), {
             margin: 1,
             width: 256,
@@ -30,6 +35,12 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
             console.log('QR code saved!');
         });
     }
+    fs.writeFileSync(path.join(__dirname, 'README.md'), `
+## 小程序demo列表
+| 小程序  | 二维码 |
+| ------------- | ------------- |
+${readmeItem.join('\n')}
+`, 'utf-8')
 
     console.log('当前目录下的文件夹有：', directories);
 });

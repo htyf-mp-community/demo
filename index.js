@@ -22,8 +22,8 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
     for (const key in directories) {
         const element = directories[key];
         const data = require(element)
-       
-        QRCode.toFile(path.join(path.dirname(element), 'qrcode.png'), JSON.stringify(data), {
+        const url = `https://share.dagouzhi.com/#/pages/index/index?data=${encodeURIComponent(JSON.stringify(data))}`
+        QRCode.toFile(path.join(path.dirname(element), 'qrcode.png'), url, {
             margin: 1,
             width: 256,
             color: {

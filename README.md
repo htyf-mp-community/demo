@@ -1,5 +1,5 @@
 
-## [app下载 https://mp.dagouzhi.com/ ](https://mp.dagouzhi.com/)
+## [红糖云服app下载 https://mp.dagouzhi.com/ ](https://mp.dagouzhi.com/)
 
 ## 小程序demo列表
 | 小程序  | 二维码 |

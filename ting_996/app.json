@@ -1,0 +1,8 @@
+{
+  "type": "app",
+  "name": "听书网",
+  "appid": "ting_996",
+  "version": "0.0.31",
+  "appUrlConfig": "https://raw.gitmirror.com/htyf-mp-community/demo/main/ting_996/app.json",
+  "zipUrl": "https://raw.gitmirror.com/htyf-mp-community/demo/ting_996/dist.dgz"
+}

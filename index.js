@@ -36,6 +36,8 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
         });
     }
     fs.writeFileSync(path.join(__dirname, 'README.md'), `
+## [app下载 https://mp.dagouzhi.com/ ](https://mp.dagouzhi.com/)
+
 ## 小程序demo列表
 | 小程序  | 二维码 |
 | ------------- | ------------- |

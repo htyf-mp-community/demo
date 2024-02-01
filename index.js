@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const QRCode = require('qrcode');
 const pkg = require('./package.json')
+const rawUrl = `https://raw.gitmirror.com/htyf-mp-community/demo/main/apps.json`
 
 fs.readdir('.', { withFileTypes: true }, (err, files) => {
     if (err) {
@@ -9,6 +10,7 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
         return;
     }
     const readmeItem = []
+    const readmeSource = []
     const directories = files
         .filter((dirent) => dirent.isDirectory())
         .filter((dirent) => {
@@ -19,6 +21,7 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
             const url = `https://share.dagouzhi.com/#/pages/index/index?data=${encodeURIComponent(JSON.stringify(data))}`
 
             readmeItem.push(`| [${data.name}](${url})  | [![小程序码](./${i.name}/qrcode.png)](${url}) |`)
+            readmeSource.push(data)
             QRCode.toFile(path.join(path.dirname(appConfigPath), 'qrcode.png'), url, {
                 margin: 1,
                 width: 256,
@@ -32,7 +35,7 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
             });
             return appConfigPath
         })
-    const rawUrl = `https://raw.gitmirror.com/htyf-mp-community/demo/main/apps.json`
+
     QRCode.toFile(path.join(__dirname, './public/qrcode.png'), rawUrl, {
         margin: 1,
         width: 256,
@@ -65,7 +68,12 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
 | ------------- | ------------- |
 ${readmeItem.join('\n')}
 `, 'utf-8')
-
+fs.writeFileSync(path.join(__dirname, 'apps.json'), JSON.stringify({
+    name: pkg.name,
+    version: pkg.version,
+    source: rawUrl,
+    list: readmeSource,
+}), 'utf-8')
     console.log('当前目录下的文件夹有：', directories);
 });
 

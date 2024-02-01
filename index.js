@@ -67,6 +67,22 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
 | 小程序  | 二维码 |
 | ------------- | ------------- |
 ${readmeItem.join('\n')}
+
+## 免责
+
+1. 本项目所有数据信息均来自站长资源网站，本软件相当于浏览器，用户只是从网页中获取数据
+
+2. 本项目承诺不保存任何第三方用户信息
+
+3. 本项目代码仅供学习交流，不得用于商业用途，若侵权请联系
+
+## 投食
+
+开发迭代不易，觉得 App 好用的，有能力的请投喂一下，也可以给个星星
+
+| 微信  | 支付宝 |
+| ------------- | ------------- |
+| ![小程序码](./public/IMG_5087.jpg)  | ![小程序码](./public/IMG_5088.jpg) |
 `, 'utf-8')
 fs.writeFileSync(path.join(__dirname, 'apps.json'), JSON.stringify({
     name: pkg.name,

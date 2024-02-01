@@ -7,6 +7,6 @@
 | 小程序  | 二维码 |
 | ------------- | ------------- |
 | 动漫基地  | ![小程序码](./animation_996/qrcode.png) |
-| undefined  | ![小程序码](./caricature_996/qrcode.png) |
+| 漫画基地  | ![小程序码](./caricature_996/qrcode.png) |
 | 直播live  | ![小程序码](./live_996/qrcode.png) |
 | 听书网  | ![小程序码](./ting_996/qrcode.png) |

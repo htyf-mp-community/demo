@@ -16,25 +16,22 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
         }).map(i => {
             const appConfigPath = path.join(__dirname, i.name, 'app.json')
             const data = require(appConfigPath)
-            readmeItem.push(`| ${data.name}  | ![小程序码](./${i.name}/qrcode.png) |`)
+            const url = `https://share.dagouzhi.com/#/pages/index/index?data=${encodeURIComponent(JSON.stringify(data))}`
+
+            readmeItem.push(`| [${data.name}](${url})  | [![小程序码](./${i.name}/qrcode.png)](${url}) |`)
+            QRCode.toFile(path.join(path.dirname(appConfigPath), 'qrcode.png'), url, {
+                margin: 1,
+                width: 256,
+                color: {
+                    dark: '#000000FF',
+                    light: '#FFFFFFFF'
+                }
+            }, function (err) {
+                if (err) throw err;
+                console.log('QR code saved!');
+            });
             return appConfigPath
         })
-    for (const key in directories) {
-        const element = directories[key];
-        const data = require(element)
-        const url = `https://share.dagouzhi.com/#/pages/index/index?data=${encodeURIComponent(JSON.stringify(data))}`
-        QRCode.toFile(path.join(path.dirname(element), 'qrcode.png'), url, {
-            margin: 1,
-            width: 256,
-            color: {
-                dark: '#000000FF',
-                light: '#FFFFFFFF'
-            }
-        }, function (err) {
-            if (err) throw err;
-            console.log('QR code saved!');
-        });
-    }
     fs.writeFileSync(path.join(__dirname, 'README.md'), `
 ## [红糖云服app下载 https://mp.dagouzhi.com/ ](https://mp.dagouzhi.com/)
 

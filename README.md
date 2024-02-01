@@ -1,9 +1,20 @@
 
+# 小程序app源
+
 ## [红糖云服app下载 https://mp.dagouzhi.com/ ](https://mp.dagouzhi.com/)
 
-### 使用红糖云服app 扫码添加小程序
+### 使用红糖云服app 加小程序源
 
-## 小程序demo列表
+> ![](./public/qrcode.png)
+>
+> https://raw.gitmirror.com/htyf-mp-community/demo/main/apps.json
+
+### 使用方法
+| 1. 首页点加号  | 2. 系统管理 | 3. 源管理 |
+| ------------- | ------------- | ------------- |
+| ![](./public/IMG_5076.png) | ![](./public/IMG_5077.png) | ![](./public/IMG_5078.png)
+
+## 此源包含小程序列表
 | 小程序  | 二维码 |
 | ------------- | ------------- |
 | [动漫基地](https://share.dagouzhi.com/#/pages/index/index?data=%7B%22type%22%3A%22app%22%2C%22name%22%3A%22%E5%8A%A8%E6%BC%AB%E5%9F%BA%E5%9C%B0%22%2C%22appid%22%3A%22animation_996%22%2C%22version%22%3A%220.0.9%22%2C%22appUrlConfig%22%3A%22https%3A%2F%2Fraw.gitmirror.com%2Fhtyf-mp-community%2Fdemo%2Fmain%2Fanimation_996%2Fapp.json%22%2C%22zipUrl%22%3A%22https%3A%2F%2Fraw.gitmirror.com%2Fhtyf-mp-community%2Fdemo%2Fmain%2Fanimation_996%2Fdist.dgz%22%7D)  | [![小程序码](./animation_996/qrcode.png)](https://share.dagouzhi.com/#/pages/index/index?data=%7B%22type%22%3A%22app%22%2C%22name%22%3A%22%E5%8A%A8%E6%BC%AB%E5%9F%BA%E5%9C%B0%22%2C%22appid%22%3A%22animation_996%22%2C%22version%22%3A%220.0.9%22%2C%22appUrlConfig%22%3A%22https%3A%2F%2Fraw.gitmirror.com%2Fhtyf-mp-community%2Fdemo%2Fmain%2Fanimation_996%2Fapp.json%22%2C%22zipUrl%22%3A%22https%3A%2F%2Fraw.gitmirror.com%2Fhtyf-mp-community%2Fdemo%2Fmain%2Fanimation_996%2Fdist.dgz%22%7D) |

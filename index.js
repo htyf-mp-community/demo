@@ -32,12 +32,35 @@ fs.readdir('.', { withFileTypes: true }, (err, files) => {
             });
             return appConfigPath
         })
+    const rawUrl = `https://raw.gitmirror.com/htyf-mp-community/demo/main/apps.json`
+    QRCode.toFile(path.join(__dirname, './public/qrcode.png'), rawUrl, {
+        margin: 1,
+        width: 256,
+        color: {
+            dark: '#000000FF',
+            light: '#FFFFFFFF'
+        }
+    }, function (err) {
+        if (err) throw err;
+        console.log('QR code saved!');
+    });
     fs.writeFileSync(path.join(__dirname, 'README.md'), `
+# 小程序app源
+
 ## [红糖云服app下载 https://mp.dagouzhi.com/ ](https://mp.dagouzhi.com/)
 
-### 使用红糖云服app 扫码添加小程序
+### 使用红糖云服app 加小程序源
 
-## 小程序demo列表
+> ![](./public/qrcode.png)
+>
+> ${rawUrl}
+
+### 使用方法
+| 1. 首页点加号  | 2. 系统管理 | 3. 源管理 |
+| ------------- | ------------- | ------------- |
+| ![](./public/IMG_5076.png) | ![](./public/IMG_5077.png) | ![](./public/IMG_5078.png)
+
+## 此源包含小程序列表
 | 小程序  | 二维码 |
 | ------------- | ------------- |
 ${readmeItem.join('\n')}

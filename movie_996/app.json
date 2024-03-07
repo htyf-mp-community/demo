@@ -3,6 +3,6 @@
   "name": "影视基地",
   "appid": "movie_996",
   "version": "0.0.5",
-  "appUrlConfig": "https://raw.gitmirror.com/htyf-mp-community/movie/main/dgz/build/outputs/app.json",
-  "zipUrl": "https://raw.gitmirror.com/htyf-mp-community/movie/main/dgz/build/outputs/dist.dgz"
+  "appUrlConfig": "https://raw.gitmirror.com/xiaoheiwawa/movie/main/dgz/build/outputs/app.json",
+  "zipUrl": "https://raw.gitmirror.com/xiaoheiwawa/movie/main/dgz/build/outputs/dist.dgz"
 }

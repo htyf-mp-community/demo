@@ -1,0 +1,8 @@
+{
+  "type": "app",
+  "name": "v2ex",
+  "appid": "dgz996_v2ex",
+  "version": "1.0.0",
+  "appUrlConfig": "https://raw.gitmirror.com/htyf-mp-community/v2ex/main/dgz/build/outputs/app.json",
+  "zipUrl": "https://raw.gitmirror.com/htyf-mp-community/v2ex/main/dgz/build/outputs/dist.dgz"
+}

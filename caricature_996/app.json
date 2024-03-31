@@ -2,7 +2,7 @@
   "type": "app",
   "name": "漫画基地",
   "appid": "caricature_996",
-  "version": "0.7.1",
+  "version": "0.7.3",
   "appUrlConfig": "https://raw.gitmirror.com/htyf-mp-community/demo/main/caricature_996/app.json",
   "zipUrl": "https://raw.gitmirror.com/htyf-mp-community/demo/main/caricature_996/dist.dgz"
 }

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const QRCode = require('qrcode');
 const pkg = require('./package.json')
-const rawUrl = `https://raw.gitmirror.com/htyf-mp-community/demo/main/apps.json`
+const rawUrl = `https://raw.githubusercontent.com/htyf-mp-community/demo/main/apps.json`
 
 fs.readdir('.', { withFileTypes: true }, (err, files) => {
     if (err) {

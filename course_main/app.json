@@ -1,8 +1,0 @@
-{
-  "type": "app",
-  "name": "课程中心",
-  "appid": "course_main",
-  "version": "1.0.21",
-  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/course_main/app.json",
-  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/course_main/dist.dgz"
-}

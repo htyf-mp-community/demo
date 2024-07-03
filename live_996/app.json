@@ -2,7 +2,7 @@
   "type": "app",
   "name": "直播live",
   "appid": "live_996",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/live_996/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/live_996/dist.dgz"
 }

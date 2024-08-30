@@ -1,0 +1,8 @@
+{
+  "type": "app",
+  "name": "短视频下载",
+  "projectname": "短视频下载",
+  "appid": "fe27d0d96e8fe86bce2eb341386c9f37",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/douyin_parse/main/dgz/build/outputs/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/douyin_parse/main/dgz/build/outputs/dist.dgz"
+}

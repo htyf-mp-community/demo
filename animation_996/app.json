@@ -2,7 +2,7 @@
   "type": "app",
   "name": "动漫基地",
   "appid": "animation_996",
-  "version": "0.0.51",
+  "version": "0.0.52",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/animation_996/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/animation_996/dist.dgz"
 }

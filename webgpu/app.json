@@ -1,0 +1,8 @@
+{
+  "type": "app",
+  "name": "webgpu",
+  "appid": "fe27d0d96e8fe86bce2eb341386c9f37",
+  "version": "0.0.1",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/webgpu/main/dgz/build/outputs/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/webgpu/main/dgz/build/outputs/dist.dgz"
+}

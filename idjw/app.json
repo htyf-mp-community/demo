@@ -1,0 +1,8 @@
+{
+  "type": "app",
+  "name": "短剧窝",
+  "appid": "idjw",
+  "version": "0.0.26",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/idjw/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/idjw/dist.dgz"
+}

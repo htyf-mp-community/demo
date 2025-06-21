@@ -2,7 +2,7 @@
   "type": "app",
   "name": "壁纸库",
   "appid": "bizhihui",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/bizhihui/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/bizhihui/dist.dgz"
 }

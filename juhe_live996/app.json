@@ -1,0 +1,8 @@
+{
+  "type": "app",
+  "name": "聚合直播",
+  "appid": "juhe_live996",
+  "version": "0.0.29",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/juhe_live996/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/juhe_live996/dist.dgz"
+}

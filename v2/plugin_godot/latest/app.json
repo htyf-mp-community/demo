@@ -3,7 +3,7 @@
   "engines": "2.0.0",
   "name": "godot",
   "appid": "plugin_godot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_godot/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_godot/latest/dist.dgz"
 }

@@ -1,0 +1,9 @@
+{
+  "type": "app",
+  "engines": "2.0.0",
+  "name": "动漫基地",
+  "appid": "plugin_animation",
+  "version": "0.0.8",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_animation/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_animation/latest/dist.dgz"
+}

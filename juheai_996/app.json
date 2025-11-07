@@ -1,8 +1,0 @@
-{
-  "type": "app",
-  "name": "聚合AI",
-  "appid": "juhe_ai_996",
-  "version": "0.0.1",
-  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/react-native-ai/master/app/dgz/build/outputs/app.json",
-  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/react-native-ai/master/app/dgz/build/outputs/dist.dgz"
-}

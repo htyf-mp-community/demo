@@ -1,8 +1,0 @@
-{
-  "type": "app",
-  "name": "88影视",
-  "appid": "88_movie",
-  "version": "0.0.27",
-  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/88_movie/app.json",
-  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/88_movie/dist.dgz"
-}

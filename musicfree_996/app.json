@@ -1,8 +1,0 @@
-{
-  "type": "app",
-  "name": "音乐基地",
-  "projectname": "音乐基地",
-  "appid": "MusicFree_996",
-  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/MusicFree/master/dgz/build/outputs/app.json",
-  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/MusicFree/master/dgz/build/outputs/dist.dgz"
-}

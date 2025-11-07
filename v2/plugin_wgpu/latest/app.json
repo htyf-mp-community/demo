@@ -1,0 +1,9 @@
+{
+  "type": "app",
+  "engines": "2.0.0",
+  "name": "webgpu",
+  "appid": "plugin_wgpu",
+  "version": "0.0.16",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_wgpu/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_wgpu/latest/dist.dgz"
+}

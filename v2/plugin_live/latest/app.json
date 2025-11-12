@@ -3,7 +3,7 @@
   "engines": "2.0.0",
   "name": "直播基地",
   "appid": "plugin_live",
-  "version": "0.0.10",
+  "version": "0.0.14",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/dist.dgz"
 }

@@ -3,7 +3,7 @@
   "engines": "2.0.0",
   "name": "影视基地",
   "appid": "plugin_movie",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_movie/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_movie/latest/dist.dgz"
 }

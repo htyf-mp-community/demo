@@ -4,8 +4,8 @@
   "name": "勇者",
   "projectname": "勇者",
   "appid": "fe27d0d96e8fe86bce2eb341386c9f37",
-  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_wgpu/latest/app.json",
-  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_wgpu/latest/dist.[PLATFORM].dgz",
-  "version": "1.0.5",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/game/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/game/latest/dist.[PLATFORM].dgz",
+  "version": "1.0.6",
   "engines": "2.0.0"
 }

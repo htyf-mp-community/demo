@@ -3,7 +3,7 @@
   "engines": "2.0.0",
   "name": "漫画基地",
   "appid": "plugin_manga",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/dist.dgz"
 }

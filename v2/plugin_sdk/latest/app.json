@@ -3,7 +3,7 @@
   "engines": "2.0.0",
   "name": "SDK",
   "appid": "plugin_sdk",
-  "version": "0.0.44",
+  "version": "0.0.76",
   "appUrlConfig": "https://hongtangyun-1252095557.cos.accelerate.myqcloud.com/assets/testMiniApps/appstore/plugin/sdk/latest/app.json",
   "zipUrl": "https://hongtangyun-1252095557.cos.accelerate.myqcloud.com/assets/testMiniApps/appstore/plugin/sdk/latest/dist.dgz"
 }

@@ -20,14 +20,14 @@
       "version": "0.83.1",
       "nativeModule": true
     },
-    "react": {
-      "name": "react",
-      "version": "19.2.3",
-      "nativeModule": false
-    },
     "react-native-url-polyfill": {
       "name": "react-native-url-polyfill",
       "version": "3.0.0",
+      "nativeModule": false
+    },
+    "react": {
+      "name": "react",
+      "version": "19.2.3",
       "nativeModule": false
     },
     "@babel/runtime": {
@@ -70,6 +70,11 @@
       "version": "2.0.0",
       "nativeModule": true
     },
+    "react-native-track-player": {
+      "name": "react-native-track-player",
+      "version": "5.0.0-alpha0-nightly-359af5a12d712d3b685530aed9b9625865a25d74",
+      "nativeModule": true
+    },
     "react-native-splash-view": {
       "name": "react-native-splash-view",
       "version": "0.0.19",
@@ -78,11 +83,6 @@
     "react-native-edge-to-edge": {
       "name": "react-native-edge-to-edge",
       "version": "1.7.0",
-      "nativeModule": true
-    },
-    "react-native-track-player": {
-      "name": "react-native-track-player",
-      "version": "5.0.0-alpha0-nightly-359af5a12d712d3b685530aed9b9625865a25d74",
       "nativeModule": true
     },
     "@react-native-community/netinfo": {
@@ -95,6 +95,11 @@
       "version": "1.0.6",
       "nativeModule": true
     },
+    "react-native-screens": {
+      "name": "react-native-screens",
+      "version": "4.19.0",
+      "nativeModule": true
+    },
     "events": {
       "name": "events",
       "version": "3.3.0",
@@ -104,11 +109,6 @@
       "name": "tapable",
       "version": "2.3.0",
       "nativeModule": false
-    },
-    "react-native-screens": {
-      "name": "react-native-screens",
-      "version": "4.19.0",
-      "nativeModule": true
     },
     "invariant": {
       "name": "invariant",
@@ -125,16 +125,6 @@
       "version": "0.83.1",
       "nativeModule": false
     },
-    "nullthrows": {
-      "name": "nullthrows",
-      "version": "1.1.1",
-      "nativeModule": false
-    },
-    "memoize-one": {
-      "name": "memoize-one",
-      "version": "5.2.1",
-      "nativeModule": false
-    },
     "regenerator-runtime": {
       "name": "regenerator-runtime",
       "version": "0.13.11",
@@ -145,14 +135,19 @@
       "version": "3.0.0",
       "nativeModule": false
     },
+    "nullthrows": {
+      "name": "nullthrows",
+      "version": "1.1.1",
+      "nativeModule": false
+    },
+    "memoize-one": {
+      "name": "memoize-one",
+      "version": "5.2.1",
+      "nativeModule": false
+    },
     "@module-federation/runtime-tools": {
       "name": "@module-federation/runtime-tools",
       "version": "0.19.1",
-      "nativeModule": false
-    },
-    "fast-base64-decode": {
-      "name": "fast-base64-decode",
-      "version": "1.0.0",
       "nativeModule": false
     },
     "tailwindcss": {
@@ -165,9 +160,14 @@
       "version": "0.19.1",
       "nativeModule": false
     },
-    "whatwg-url-without-unicode": {
-      "name": "whatwg-url-without-unicode",
-      "version": "8.0.0-3",
+    "promise": {
+      "name": "promise",
+      "version": "8.3.0",
+      "nativeModule": false
+    },
+    "fast-base64-decode": {
+      "name": "fast-base64-decode",
+      "version": "1.0.0",
       "nativeModule": false
     },
     "@react-native/virtualized-lists": {
@@ -175,14 +175,9 @@
       "version": "0.83.1",
       "nativeModule": false
     },
-    "promise": {
-      "name": "promise",
-      "version": "8.3.0",
-      "nativeModule": false
-    },
-    "hoist-non-react-statics": {
-      "name": "hoist-non-react-statics",
-      "version": "3.3.2",
+    "whatwg-url-without-unicode": {
+      "name": "whatwg-url-without-unicode",
+      "version": "8.0.0-3",
       "nativeModule": false
     },
     "base64-js": {
@@ -200,6 +195,21 @@
       "version": "5.0.1",
       "nativeModule": false
     },
+    "hoist-non-react-statics": {
+      "name": "hoist-non-react-statics",
+      "version": "3.3.2",
+      "nativeModule": false
+    },
+    "stacktrace-parser": {
+      "name": "stacktrace-parser",
+      "version": "0.1.11",
+      "nativeModule": false
+    },
+    "@module-federation/error-codes": {
+      "name": "@module-federation/error-codes",
+      "version": "0.19.1",
+      "nativeModule": false
+    },
     "safe-buffer": {
       "name": "safe-buffer",
       "version": "5.2.1",
@@ -210,29 +220,9 @@
       "version": "0.12.5",
       "nativeModule": false
     },
-    "@module-federation/error-codes": {
-      "name": "@module-federation/error-codes",
-      "version": "0.19.1",
-      "nativeModule": false
-    },
     "warn-once": {
       "name": "warn-once",
       "version": "0.1.1",
-      "nativeModule": false
-    },
-    "@react-navigation/native": {
-      "name": "@react-navigation/native",
-      "version": "7.1.26",
-      "nativeModule": false
-    },
-    "@react-navigation/stack": {
-      "name": "@react-navigation/stack",
-      "version": "7.6.13",
-      "nativeModule": false
-    },
-    "stacktrace-parser": {
-      "name": "stacktrace-parser",
-      "version": "0.1.11",
       "nativeModule": false
     },
     "react-freeze": {
@@ -244,6 +234,16 @@
       "name": "react-native-nitro-modules",
       "version": "0.32.1",
       "nativeModule": true
+    },
+    "@react-navigation/stack": {
+      "name": "@react-navigation/stack",
+      "version": "7.6.13",
+      "nativeModule": false
+    },
+    "@react-navigation/native": {
+      "name": "@react-navigation/native",
+      "version": "7.1.26",
+      "nativeModule": false
     },
     "@craftzdog/react-native-buffer": {
       "name": "@craftzdog/react-native-buffer",
@@ -265,6 +265,11 @@
       "version": "0.27.0",
       "nativeModule": false
     },
+    "color": {
+      "name": "color",
+      "version": "5.0.3",
+      "nativeModule": false
+    },
     "nanoid": {
       "name": "nanoid",
       "version": "3.3.11",
@@ -280,39 +285,24 @@
       "version": "2.0.4",
       "nativeModule": false
     },
-    "color": {
-      "name": "color",
-      "version": "5.0.3",
-      "nativeModule": false
-    },
     "punycode": {
       "name": "punycode",
       "version": "2.3.1",
       "nativeModule": false
     },
-    "which-typed-array": {
-      "name": "which-typed-array",
-      "version": "1.1.19",
+    "react-native-quick-base64": {
+      "name": "react-native-quick-base64",
+      "version": "2.2.2",
+      "nativeModule": true
+    },
+    "compare-versions": {
+      "name": "compare-versions",
+      "version": "6.1.1",
       "nativeModule": false
     },
-    "is-typed-array": {
-      "name": "is-typed-array",
-      "version": "1.1.15",
-      "nativeModule": false
-    },
-    "is-arguments": {
-      "name": "is-arguments",
-      "version": "1.2.0",
-      "nativeModule": false
-    },
-    "is-generator-function": {
-      "name": "is-generator-function",
-      "version": "1.1.2",
-      "nativeModule": false
-    },
-    "dayjs": {
-      "name": "dayjs",
-      "version": "1.11.19",
+    "crypto-js": {
+      "name": "crypto-js",
+      "version": "4.2.0",
       "nativeModule": false
     },
     "axios": {
@@ -320,9 +310,9 @@
       "version": "1.13.2",
       "nativeModule": false
     },
-    "crypto-js": {
-      "name": "crypto-js",
-      "version": "4.2.0",
+    "dayjs": {
+      "name": "dayjs",
+      "version": "1.11.19",
       "nativeModule": false
     },
     "he": {
@@ -340,26 +330,6 @@
       "version": "1.6.52",
       "nativeModule": false
     },
-    "react-native-permissions": {
-      "name": "react-native-permissions",
-      "version": "5.4.4",
-      "nativeModule": true
-    },
-    "compare-versions": {
-      "name": "compare-versions",
-      "version": "6.1.1",
-      "nativeModule": false
-    },
-    "expo-file-system": {
-      "name": "expo-file-system",
-      "version": "19.0.21",
-      "nativeModule": true
-    },
-    "react-native-quick-base64": {
-      "name": "react-native-quick-base64",
-      "version": "2.2.2",
-      "nativeModule": true
-    },
     "object-path": {
       "name": "object-path",
       "version": "0.11.8",
@@ -370,24 +340,19 @@
       "version": "11.1.3",
       "nativeModule": false
     },
-    "cheerio": {
-      "name": "cheerio",
-      "version": "1.1.2",
-      "nativeModule": false
-    },
-    "picocolors": {
-      "name": "picocolors",
-      "version": "1.1.1",
-      "nativeModule": false
-    },
-    "process": {
-      "name": "process",
-      "version": "0.11.10",
-      "nativeModule": false
-    },
     "path-browserify": {
       "name": "path-browserify",
       "version": "1.0.1",
+      "nativeModule": false
+    },
+    "react-native-permissions": {
+      "name": "react-native-permissions",
+      "version": "5.4.4",
+      "nativeModule": true
+    },
+    "cheerio": {
+      "name": "cheerio",
+      "version": "1.1.2",
       "nativeModule": false
     },
     "react-native-logs": {
@@ -395,9 +360,49 @@
       "version": "5.5.0",
       "nativeModule": false
     },
+    "process": {
+      "name": "process",
+      "version": "0.11.10",
+      "nativeModule": false
+    },
+    "picocolors": {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "nativeModule": false
+    },
+    "is-generator-function": {
+      "name": "is-generator-function",
+      "version": "1.1.2",
+      "nativeModule": false
+    },
+    "which-typed-array": {
+      "name": "which-typed-array",
+      "version": "1.1.19",
+      "nativeModule": false
+    },
+    "is-arguments": {
+      "name": "is-arguments",
+      "version": "1.2.0",
+      "nativeModule": false
+    },
+    "is-typed-array": {
+      "name": "is-typed-array",
+      "version": "1.1.15",
+      "nativeModule": false
+    },
     "@react-navigation/core": {
       "name": "@react-navigation/core",
       "version": "7.13.7",
+      "nativeModule": false
+    },
+    "ahooks": {
+      "name": "ahooks",
+      "version": "3.9.6",
+      "nativeModule": false
+    },
+    "@htyf-mp/js-sdk": {
+      "name": "@htyf-mp/js-sdk",
+      "version": "0.0.45",
       "nativeModule": false
     },
     "lodash": {
@@ -405,9 +410,14 @@
       "version": "4.17.21",
       "nativeModule": false
     },
-    "use-latest-callback": {
-      "name": "use-latest-callback",
-      "version": "0.2.6",
+    "string_decoder": {
+      "name": "string_decoder",
+      "version": "1.3.0",
+      "nativeModule": false
+    },
+    "@react-navigation/drawer": {
+      "name": "@react-navigation/drawer",
+      "version": "7.7.10",
       "nativeModule": false
     },
     "react-native-svg": {
@@ -415,44 +425,14 @@
       "version": "15.15.1",
       "nativeModule": true
     },
-    "ahooks": {
-      "name": "ahooks",
-      "version": "3.9.6",
-      "nativeModule": false
-    },
-    "expo-keep-awake": {
-      "name": "expo-keep-awake",
-      "version": "15.0.8",
-      "nativeModule": true
-    },
-    "@htyf-mp/js-sdk": {
-      "name": "@htyf-mp/js-sdk",
-      "version": "0.0.45",
-      "nativeModule": false
-    },
-    "@react-navigation/elements": {
-      "name": "@react-navigation/elements",
-      "version": "2.9.3",
-      "nativeModule": false
-    },
-    "string_decoder": {
-      "name": "string_decoder",
-      "version": "1.3.0",
-      "nativeModule": false
-    },
     "react-native-device-info": {
       "name": "react-native-device-info",
       "version": "15.0.1",
       "nativeModule": true
     },
-    "@react-navigation/drawer": {
-      "name": "@react-navigation/drawer",
-      "version": "7.7.10",
-      "nativeModule": false
-    },
-    "@dr.pogodin/react-native-fs": {
-      "name": "@dr.pogodin/react-native-fs",
-      "version": "2.36.2",
+    "expo-file-system": {
+      "name": "expo-file-system",
+      "version": "19.0.21",
       "nativeModule": true
     },
     "react-native-mmkv": {
@@ -460,9 +440,39 @@
       "version": "4.1.1",
       "nativeModule": true
     },
+    "@dr.pogodin/react-native-fs": {
+      "name": "@dr.pogodin/react-native-fs",
+      "version": "2.36.2",
+      "nativeModule": true
+    },
+    "use-latest-callback": {
+      "name": "use-latest-callback",
+      "version": "0.2.6",
+      "nativeModule": false
+    },
     "prop-types": {
       "name": "prop-types",
       "version": "15.8.1",
+      "nativeModule": false
+    },
+    "@d11/react-native-fast-image": {
+      "name": "@d11/react-native-fast-image",
+      "version": "8.13.0",
+      "nativeModule": true
+    },
+    "react-native-blob-util": {
+      "name": "react-native-blob-util",
+      "version": "0.24.6",
+      "nativeModule": true
+    },
+    "expo-keep-awake": {
+      "name": "expo-keep-awake",
+      "version": "15.0.8",
+      "nativeModule": true
+    },
+    "@react-navigation/elements": {
+      "name": "@react-navigation/elements",
+      "version": "2.9.3",
       "nativeModule": false
     },
     "has-tostringtag": {
@@ -470,40 +480,20 @@
       "version": "1.0.2",
       "nativeModule": false
     },
+    "react-native-is-edge-to-edge": {
+      "name": "react-native-is-edge-to-edge",
+      "version": "1.2.1",
+      "nativeModule": false
+    },
     "call-bound": {
       "name": "call-bound",
       "version": "1.0.4",
-      "nativeModule": false
-    },
-    "call-bind": {
-      "name": "call-bind",
-      "version": "1.0.8",
-      "nativeModule": false
-    },
-    "available-typed-arrays": {
-      "name": "available-typed-arrays",
-      "version": "1.0.7",
       "nativeModule": false
     },
     "get-proto": {
       "name": "get-proto",
       "version": "1.0.1",
       "nativeModule": false
-    },
-    "gopd": {
-      "name": "gopd",
-      "version": "1.2.0",
-      "nativeModule": false
-    },
-    "react-native-blob-util": {
-      "name": "react-native-blob-util",
-      "version": "0.24.6",
-      "nativeModule": true
-    },
-    "@d11/react-native-fast-image": {
-      "name": "@d11/react-native-fast-image",
-      "version": "8.13.0",
-      "nativeModule": true
     },
     "safe-regex-test": {
       "name": "safe-regex-test",
@@ -515,14 +505,24 @@
       "version": "2.0.1",
       "nativeModule": false
     },
+    "available-typed-arrays": {
+      "name": "available-typed-arrays",
+      "version": "1.0.7",
+      "nativeModule": false
+    },
+    "gopd": {
+      "name": "gopd",
+      "version": "1.2.0",
+      "nativeModule": false
+    },
+    "call-bind": {
+      "name": "call-bind",
+      "version": "1.0.8",
+      "nativeModule": false
+    },
     "for-each": {
       "name": "for-each",
       "version": "0.3.5",
-      "nativeModule": false
-    },
-    "react-native-is-edge-to-edge": {
-      "name": "react-native-is-edge-to-edge",
-      "version": "1.2.1",
       "nativeModule": false
     },
     "@shopify/flash-list": {
@@ -535,39 +535,69 @@
       "version": "4.2.2",
       "nativeModule": false
     },
-    "react-native-circular-progress-indicator": {
-      "name": "react-native-circular-progress-indicator",
-      "version": "4.4.2",
-      "nativeModule": false
+    "@boterop/react-native-background-timer": {
+      "name": "@boterop/react-native-background-timer",
+      "version": "2.6.0",
+      "nativeModule": true
     },
     "@react-navigation/routers": {
       "name": "@react-navigation/routers",
       "version": "7.5.3",
       "nativeModule": false
     },
-    "@boterop/react-native-background-timer": {
-      "name": "@boterop/react-native-background-timer",
-      "version": "2.6.0",
+    "react-native-circular-progress-indicator": {
+      "name": "react-native-circular-progress-indicator",
+      "version": "4.4.2",
+      "nativeModule": false
+    },
+    "escape-string-regexp": {
+      "name": "escape-string-regexp",
+      "version": "4.0.0",
+      "nativeModule": false
+    },
+    "react-native-drawer-layout": {
+      "name": "react-native-drawer-layout",
+      "version": "4.2.1",
+      "nativeModule": false
+    },
+    "react-native-share": {
+      "name": "react-native-share",
+      "version": "12.2.2",
       "nativeModule": true
-    },
-    "has-symbols": {
-      "name": "has-symbols",
-      "version": "1.1.0",
-      "nativeModule": false
-    },
-    "call-bind-apply-helpers": {
-      "name": "call-bind-apply-helpers",
-      "version": "1.0.2",
-      "nativeModule": false
     },
     "react-native-worklets": {
       "name": "react-native-worklets",
       "version": "0.7.1",
       "nativeModule": true
     },
+    "dom-serializer": {
+      "name": "dom-serializer",
+      "version": "2.0.0",
+      "nativeModule": false
+    },
+    "http-status-codes": {
+      "name": "http-status-codes",
+      "version": "2.3.0",
+      "nativeModule": false
+    },
+    "domutils": {
+      "name": "domutils",
+      "version": "3.2.2",
+      "nativeModule": false
+    },
+    "has-symbols": {
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "nativeModule": false
+    },
     "side-channel": {
       "name": "side-channel",
       "version": "1.1.0",
+      "nativeModule": false
+    },
+    "htmlparser2": {
+      "name": "htmlparser2",
+      "version": "10.0.0",
       "nativeModule": false
     },
     "eventemitter3": {
@@ -575,19 +605,19 @@
       "version": "4.0.7",
       "nativeModule": false
     },
+    "expo-document-picker": {
+      "name": "expo-document-picker",
+      "version": "14.0.8",
+      "nativeModule": true
+    },
     "use-sync-external-store": {
       "name": "use-sync-external-store",
       "version": "1.6.0",
       "nativeModule": false
     },
-    "dom-serializer": {
-      "name": "dom-serializer",
-      "version": "2.0.0",
-      "nativeModule": false
-    },
-    "domutils": {
-      "name": "domutils",
-      "version": "3.2.2",
+    "call-bind-apply-helpers": {
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
       "nativeModule": false
     },
     "dunder-proto": {
@@ -600,101 +630,6 @@
       "version": "1.3.0",
       "nativeModule": false
     },
-    "react-native-drawer-layout": {
-      "name": "react-native-drawer-layout",
-      "version": "4.2.1",
-      "nativeModule": false
-    },
-    "possible-typed-array-names": {
-      "name": "possible-typed-array-names",
-      "version": "1.1.0",
-      "nativeModule": false
-    },
-    "set-function-length": {
-      "name": "set-function-length",
-      "version": "1.2.2",
-      "nativeModule": false
-    },
-    "es-define-property": {
-      "name": "es-define-property",
-      "version": "1.0.1",
-      "nativeModule": false
-    },
-    "get-intrinsic": {
-      "name": "get-intrinsic",
-      "version": "1.3.0",
-      "nativeModule": false
-    },
-    "react-native-image-picker": {
-      "name": "react-native-image-picker",
-      "version": "8.2.1",
-      "nativeModule": true
-    },
-    "react-native-image-colors": {
-      "name": "react-native-image-colors",
-      "version": "2.5.1",
-      "nativeModule": true
-    },
-    "react-native-share": {
-      "name": "react-native-share",
-      "version": "12.2.2",
-      "nativeModule": true
-    },
-    "htmlparser2": {
-      "name": "htmlparser2",
-      "version": "10.0.0",
-      "nativeModule": false
-    },
-    "react-native-linear-gradient": {
-      "name": "react-native-linear-gradient",
-      "version": "2.8.3",
-      "nativeModule": true
-    },
-    "@react-native-community/slider": {
-      "name": "@react-native-community/slider",
-      "version": "5.1.1",
-      "nativeModule": true
-    },
-    "@react-native-clipboard/clipboard": {
-      "name": "@react-native-clipboard/clipboard",
-      "version": "1.16.3",
-      "nativeModule": true
-    },
-    "expo-document-picker": {
-      "name": "expo-document-picker",
-      "version": "14.0.8",
-      "nativeModule": true
-    },
-    "escape-string-regexp": {
-      "name": "escape-string-regexp",
-      "version": "4.0.0",
-      "nativeModule": false
-    },
-    "is-regex": {
-      "name": "is-regex",
-      "version": "1.2.1",
-      "nativeModule": false
-    },
-    "http-status-codes": {
-      "name": "http-status-codes",
-      "version": "2.3.0",
-      "nativeModule": false
-    },
-    "query-string": {
-      "name": "query-string",
-      "version": "7.1.3",
-      "nativeModule": false
-    },
-    "is-callable": {
-      "name": "is-callable",
-      "version": "1.2.7",
-      "nativeModule": false
-    },
-    "fast-deep-equal": {
-      "name": "fast-deep-equal",
-      "version": "3.1.3",
-      "nativeModule": false
-    },
     "tslib": {
       "name": "tslib",
       "version": "2.8.1",
@@ -705,9 +640,49 @@
       "version": "3.0.5",
       "nativeModule": false
     },
+    "get-intrinsic": {
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "nativeModule": false
+    },
+    "possible-typed-array-names": {
+      "name": "possible-typed-array-names",
+      "version": "1.1.0",
+      "nativeModule": false
+    },
+    "is-regex": {
+      "name": "is-regex",
+      "version": "1.2.1",
+      "nativeModule": false
+    },
+    "es-define-property": {
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "nativeModule": false
+    },
+    "set-function-length": {
+      "name": "set-function-length",
+      "version": "1.2.2",
+      "nativeModule": false
+    },
+    "is-callable": {
+      "name": "is-callable",
+      "version": "1.2.7",
+      "nativeModule": false
+    },
     "intersection-observer": {
       "name": "intersection-observer",
       "version": "0.12.2",
+      "nativeModule": false
+    },
+    "query-string": {
+      "name": "query-string",
+      "version": "7.1.3",
+      "nativeModule": false
+    },
+    "fast-deep-equal": {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
       "nativeModule": false
     },
     "screenfull": {
@@ -715,9 +690,29 @@
       "version": "5.2.0",
       "nativeModule": false
     },
-    "expo-modules-core": {
-      "name": "expo-modules-core",
-      "version": "3.0.29",
+    "react-native-image-colors": {
+      "name": "react-native-image-colors",
+      "version": "2.5.1",
+      "nativeModule": true
+    },
+    "react-native-image-picker": {
+      "name": "react-native-image-picker",
+      "version": "8.2.1",
+      "nativeModule": true
+    },
+    "@react-native-community/slider": {
+      "name": "@react-native-community/slider",
+      "version": "5.1.1",
+      "nativeModule": true
+    },
+    "react-native-linear-gradient": {
+      "name": "react-native-linear-gradient",
+      "version": "2.8.3",
+      "nativeModule": true
+    },
+    "@react-native-clipboard/clipboard": {
+      "name": "@react-native-clipboard/clipboard",
+      "version": "1.16.3",
       "nativeModule": true
     },
     "resize-observer-polyfill": {
@@ -730,29 +725,29 @@
       "version": "5.0.3",
       "nativeModule": false
     },
+    "parse5-htmlparser2-tree-adapter": {
+      "name": "parse5-htmlparser2-tree-adapter",
+      "version": "7.1.0",
+      "nativeModule": false
+    },
     "parse5": {
       "name": "parse5",
       "version": "7.3.0",
       "nativeModule": false
+    },
+    "expo-modules-core": {
+      "name": "expo-modules-core",
+      "version": "3.0.29",
+      "nativeModule": true
     },
     "es-object-atoms": {
       "name": "es-object-atoms",
       "version": "1.1.1",
       "nativeModule": false
     },
-    "parse5-htmlparser2-tree-adapter": {
-      "name": "parse5-htmlparser2-tree-adapter",
-      "version": "7.1.0",
-      "nativeModule": false
-    },
-    "function-bind": {
-      "name": "function-bind",
-      "version": "1.1.2",
-      "nativeModule": false
-    },
-    "side-channel-weakmap": {
-      "name": "side-channel-weakmap",
-      "version": "1.0.2",
+    "object-inspect": {
+      "name": "object-inspect",
+      "version": "1.13.4",
       "nativeModule": false
     },
     "side-channel-list": {
@@ -765,14 +760,19 @@
       "version": "1.0.1",
       "nativeModule": false
     },
+    "side-channel-weakmap": {
+      "name": "side-channel-weakmap",
+      "version": "1.0.2",
+      "nativeModule": false
+    },
     "math-intrinsics": {
       "name": "math-intrinsics",
       "version": "1.1.0",
       "nativeModule": false
     },
-    "object-inspect": {
-      "name": "object-inspect",
-      "version": "1.13.4",
+    "domelementtype": {
+      "name": "domelementtype",
+      "version": "2.3.0",
       "nativeModule": false
     },
     "entities": {
@@ -780,9 +780,9 @@
       "version": "4.5.0",
       "nativeModule": false
     },
-    "domelementtype": {
-      "name": "domelementtype",
-      "version": "2.3.0",
+    "hasown": {
+      "name": "hasown",
+      "version": "2.0.2",
       "nativeModule": false
     },
     "define-data-property": {
@@ -795,14 +795,9 @@
       "version": "1.0.2",
       "nativeModule": false
     },
-    "hasown": {
-      "name": "hasown",
-      "version": "2.0.2",
-      "nativeModule": false
-    },
-    "strict-uri-encode": {
-      "name": "strict-uri-encode",
-      "version": "2.0.0",
+    "function-bind": {
+      "name": "function-bind",
+      "version": "1.1.2",
       "nativeModule": false
     },
     "decode-uri-component": {
@@ -810,19 +805,19 @@
       "version": "0.2.2",
       "nativeModule": false
     },
-    "filter-obj": {
-      "name": "filter-obj",
-      "version": "1.1.0",
-      "nativeModule": false
-    },
     "split-on-first": {
       "name": "split-on-first",
       "version": "1.1.0",
       "nativeModule": false
     },
-    "color-string": {
-      "name": "color-string",
-      "version": "1.9.1",
+    "filter-obj": {
+      "name": "filter-obj",
+      "version": "1.1.0",
+      "nativeModule": false
+    },
+    "strict-uri-encode": {
+      "name": "strict-uri-encode",
+      "version": "2.0.0",
       "nativeModule": false
     },
     "react-fast-compare": {
@@ -830,14 +825,19 @@
       "version": "3.2.2",
       "nativeModule": false
     },
-    "cheerio-select": {
-      "name": "cheerio-select",
-      "version": "2.1.0",
-      "nativeModule": false
-    },
     "semver": {
       "name": "semver",
       "version": "7.7.3",
+      "nativeModule": false
+    },
+    "color-string": {
+      "name": "color-string",
+      "version": "1.9.1",
+      "nativeModule": false
+    },
+    "cheerio-select": {
+      "name": "cheerio-select",
+      "version": "2.1.0",
       "nativeModule": false
     },
     "@react-native-masked-view/masked-view": {
@@ -850,11 +850,6 @@
       "version": "1.1.4",
       "nativeModule": false
     },
-    "simple-swizzle": {
-      "name": "simple-swizzle",
-      "version": "0.2.4",
-      "nativeModule": false
-    },
     "boolbase": {
       "name": "boolbase",
       "version": "1.0.0",
@@ -863,6 +858,11 @@
     "css-select": {
       "name": "css-select",
       "version": "5.2.2",
+      "nativeModule": false
+    },
+    "simple-swizzle": {
+      "name": "simple-swizzle",
+      "version": "0.2.4",
       "nativeModule": false
     },
     "react-native-redash": {
@@ -890,14 +890,14 @@
       "version": "1.1.0",
       "nativeModule": false
     },
-    "parse-svg-path": {
-      "name": "parse-svg-path",
-      "version": "0.1.2",
-      "nativeModule": false
-    },
     "abs-svg-path": {
       "name": "abs-svg-path",
       "version": "0.1.1",
+      "nativeModule": false
+    },
+    "parse-svg-path": {
+      "name": "parse-svg-path",
+      "version": "0.1.2",
       "nativeModule": false
     },
     "svg-arc-to-cubic-bezier": {

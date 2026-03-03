@@ -1,1 +1,9 @@
-{"type":"app","engines":"2.0.0","name":"漫画基地","appid":"plugin_manga","version":"0.0.56","appUrlConfig":"http://192.168.199.234:8000/app.json","zipUrl":"http://192.168.199.234:8000/dist.dgz"}
+{
+  "type": "app",
+  "engines": "2.0.0",
+  "name": "漫画基地",
+  "appid": "plugin_manga",
+  "version": "0.0.57",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/dist.dgz"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "app",
+  "entry": "./src/index.tsx",
+  "version": "1.0.4",
+  "name": "app_demo",
+  "appid": "app_demo_sdk",
+  "rotate": "portrait",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/app_demo_sdk/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/app_demo_sdk/latest/dist.dgz",
+  "engines": "2.0.0"
+}

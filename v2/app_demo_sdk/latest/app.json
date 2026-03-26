@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "name": "app_demo",
   "appid": "app_demo_sdk",
   "rotate": "portrait",

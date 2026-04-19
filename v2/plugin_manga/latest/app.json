@@ -1,9 +1,12 @@
 {
   "type": "app",
-  "engines": "2.0.0",
+  "entry": "./src/index.tsx",
+  "version": "0.0.60",
   "name": "漫画基地",
   "appid": "plugin_manga",
-  "version": "0.0.59",
+  "rotate": "portrait",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/app.json",
-  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/dist.dgz"
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/dist.dgz",
+  "projectname": "漫画基地",
+  "engines": "2.0.0"
 }

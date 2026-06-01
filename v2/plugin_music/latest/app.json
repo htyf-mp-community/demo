@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "name": "音乐基地",
   "appid": "plugin_music",
   "rotate": "portrait",

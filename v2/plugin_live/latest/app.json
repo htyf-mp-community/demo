@@ -1,9 +1,12 @@
 {
   "type": "app",
-  "engines": "2.0.0",
+  "entry": "./src/index.tsx",
+  "version": "1.0.16",
   "name": "直播基地",
   "appid": "plugin_live",
-  "version": "0.0.27",
+  "rotate": "portrait",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/app.json",
-  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/dist.dgz"
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/dist.dgz",
+  "projectname": "直播基地",
+  "engines": "2.0.0"
 }

@@ -2,11 +2,11 @@
   "type": "app",
   "entry": "./src/index.tsx",
   "version": "1.0.16",
-  "name": "直播基地",
+  "name": "SimpleLive",
   "appid": "plugin_live",
   "rotate": "portrait",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/dist.dgz",
-  "projectname": "直播基地",
+  "projectname": "SimpleLive",
   "engines": "2.0.0"
 }

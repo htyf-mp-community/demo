@@ -2,11 +2,11 @@
   "type": "app",
   "entry": "./src/index.tsx",
   "version": "0.0.63",
-  "name": "漫画基地",
+  "name": "MangaReader",
   "appid": "plugin_manga",
   "rotate": "portrait",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/dist.dgz",
-  "projectname": "漫画基地",
+  "projectname": "MangaReader",
   "engines": "2.0.0"
 }

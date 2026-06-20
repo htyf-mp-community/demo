@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "entry": "./src/index.tsx",
+  "version": "1.0.1",
+  "name": "kazumi",
+  "appid": "htyfappfdee60c7512d0b292a63f252e8e64f16",
+  "rotate": "portrait",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_kazumi/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_kazumi/latest/dist.dgz",
+  "projectname": "小程序",
+  "engines": "2.0.0"
+}

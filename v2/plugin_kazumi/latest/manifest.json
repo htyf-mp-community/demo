@@ -20,13 +20,13 @@
       "version": "7.29.2",
       "nativeModule": false
     },
-    "react": {
-      "name": "react",
+    "react-native-gesture-handler": {
+      "name": "react-native-gesture-handler",
       "version": null,
       "nativeModule": false
     },
-    "react-native-gesture-handler": {
-      "name": "react-native-gesture-handler",
+    "react": {
+      "name": "react",
       "version": null,
       "nativeModule": false
     },
@@ -35,15 +35,15 @@
       "version": "0.19.1",
       "nativeModule": false
     },
-    "@gorhom/bottom-sheet": {
-      "name": "@gorhom/bottom-sheet",
-      "version": null,
-      "nativeModule": false
-    },
     "react-native-reanimated": {
       "name": "react-native-reanimated",
       "version": "4.3.0",
       "nativeModule": true
+    },
+    "@gorhom/bottom-sheet": {
+      "name": "@gorhom/bottom-sheet",
+      "version": null,
+      "nativeModule": false
     },
     "events": {
       "name": "events",
@@ -60,8 +60,8 @@
       "version": null,
       "nativeModule": false
     },
-    "shallowequal": {
-      "name": "shallowequal",
+    "@react-native/assets-registry": {
+      "name": "@react-native/assets-registry",
       "version": null,
       "nativeModule": false
     },
@@ -70,13 +70,18 @@
       "version": null,
       "nativeModule": false
     },
+    "shallowequal": {
+      "name": "shallowequal",
+      "version": null,
+      "nativeModule": false
+    },
     "regenerator-runtime": {
       "name": "regenerator-runtime",
       "version": null,
       "nativeModule": false
     },
-    "@react-native/assets-registry": {
-      "name": "@react-native/assets-registry",
+    "abort-controller": {
+      "name": "abort-controller",
       "version": null,
       "nativeModule": false
     },
@@ -95,11 +100,6 @@
       "version": null,
       "nativeModule": false
     },
-    "abort-controller": {
-      "name": "abort-controller",
-      "version": null,
-      "nativeModule": false
-    },
     "@react-navigation/native": {
       "name": "@react-navigation/native",
       "version": null,
@@ -110,13 +110,13 @@
       "version": null,
       "nativeModule": false
     },
-    "promise": {
-      "name": "promise",
+    "@react-native/virtualized-lists": {
+      "name": "@react-native/virtualized-lists",
       "version": null,
       "nativeModule": false
     },
-    "@react-native/virtualized-lists": {
-      "name": "@react-native/virtualized-lists",
+    "promise": {
+      "name": "promise",
       "version": null,
       "nativeModule": false
     },
@@ -125,8 +125,8 @@
       "version": null,
       "nativeModule": false
     },
-    "@react-navigation/bottom-tabs": {
-      "name": "@react-navigation/bottom-tabs",
+    "event-target-shim": {
+      "name": "event-target-shim",
       "version": null,
       "nativeModule": false
     },
@@ -140,23 +140,23 @@
       "version": null,
       "nativeModule": false
     },
+    "@react-navigation/bottom-tabs": {
+      "name": "@react-navigation/bottom-tabs",
+      "version": null,
+      "nativeModule": false
+    },
     "xpath": {
       "name": "xpath",
       "version": null,
       "nativeModule": false
     },
-    "event-target-shim": {
-      "name": "event-target-shim",
+    "@xmldom/xmldom": {
+      "name": "@xmldom/xmldom",
       "version": null,
       "nativeModule": false
     },
     "@react-native/normalize-colors": {
       "name": "@react-native/normalize-colors",
-      "version": null,
-      "nativeModule": false
-    },
-    "@xmldom/xmldom": {
-      "name": "@xmldom/xmldom",
       "version": null,
       "nativeModule": false
     },
@@ -175,15 +175,20 @@
       "version": null,
       "nativeModule": false
     },
+    "@react-navigation/core": {
+      "name": "@react-navigation/core",
+      "version": null,
+      "nativeModule": false
+    },
     "stacktrace-parser": {
       "name": "stacktrace-parser",
       "version": null,
       "nativeModule": false
     },
-    "@react-navigation/core": {
-      "name": "@react-navigation/core",
-      "version": null,
-      "nativeModule": false
+    "react-native-worklets": {
+      "name": "react-native-worklets",
+      "version": "0.8.1",
+      "nativeModule": true
     },
     "@htyf-mp/js-sdk": {
       "name": "@htyf-mp/js-sdk",
@@ -200,11 +205,6 @@
       "version": null,
       "nativeModule": false
     },
-    "react-native-worklets": {
-      "name": "react-native-worklets",
-      "version": "0.8.1",
-      "nativeModule": true
-    },
     "@react-native-async-storage/async-storage": {
       "name": "@react-native-async-storage/async-storage",
       "version": null,
@@ -220,18 +220,13 @@
       "version": null,
       "nativeModule": false
     },
+    "@shopify/flash-list": {
+      "name": "@shopify/flash-list",
+      "version": null,
+      "nativeModule": false
+    },
     "@gorhom/portal": {
       "name": "@gorhom/portal",
-      "version": null,
-      "nativeModule": false
-    },
-    "requires-port": {
-      "name": "requires-port",
-      "version": null,
-      "nativeModule": false
-    },
-    "querystringify": {
-      "name": "querystringify",
       "version": null,
       "nativeModule": false
     },
@@ -240,13 +235,13 @@
       "version": null,
       "nativeModule": false
     },
-    "@react-navigation/routers": {
-      "name": "@react-navigation/routers",
+    "querystringify": {
+      "name": "querystringify",
       "version": null,
       "nativeModule": false
     },
-    "nanoid": {
-      "name": "nanoid",
+    "requires-port": {
+      "name": "requires-port",
       "version": null,
       "nativeModule": false
     },
@@ -260,13 +255,13 @@
       "version": null,
       "nativeModule": false
     },
-    "query-string": {
-      "name": "query-string",
+    "nanoid": {
+      "name": "nanoid",
       "version": null,
       "nativeModule": false
     },
-    "use-latest-callback": {
-      "name": "use-latest-callback",
+    "@react-navigation/routers": {
+      "name": "@react-navigation/routers",
       "version": null,
       "nativeModule": false
     },
@@ -275,13 +270,23 @@
       "version": null,
       "nativeModule": false
     },
-    "fast-deep-equal": {
-      "name": "fast-deep-equal",
+    "react-native-mmkv": {
+      "name": "react-native-mmkv",
       "version": null,
       "nativeModule": false
     },
-    "react-native-mmkv": {
-      "name": "react-native-mmkv",
+    "use-latest-callback": {
+      "name": "use-latest-callback",
+      "version": null,
+      "nativeModule": false
+    },
+    "query-string": {
+      "name": "query-string",
+      "version": null,
+      "nativeModule": false
+    },
+    "fast-deep-equal": {
+      "name": "fast-deep-equal",
       "version": null,
       "nativeModule": false
     },
@@ -295,11 +300,6 @@
       "version": "6.3.1",
       "nativeModule": false
     },
-    "split-on-first": {
-      "name": "split-on-first",
-      "version": null,
-      "nativeModule": false
-    },
     "color-string": {
       "name": "color-string",
       "version": null,
@@ -310,8 +310,13 @@
       "version": null,
       "nativeModule": false
     },
-    "strict-uri-encode": {
-      "name": "strict-uri-encode",
+    "filter-obj": {
+      "name": "filter-obj",
+      "version": null,
+      "nativeModule": false
+    },
+    "split-on-first": {
+      "name": "split-on-first",
       "version": null,
       "nativeModule": false
     },
@@ -320,8 +325,18 @@
       "version": null,
       "nativeModule": false
     },
-    "filter-obj": {
-      "name": "filter-obj",
+    "strict-uri-encode": {
+      "name": "strict-uri-encode",
+      "version": null,
+      "nativeModule": false
+    },
+    "http-status-codes": {
+      "name": "http-status-codes",
+      "version": null,
+      "nativeModule": false
+    },
+    "buffer": {
+      "name": "buffer",
       "version": null,
       "nativeModule": false
     },
@@ -330,8 +345,8 @@
       "version": null,
       "nativeModule": false
     },
-    "http-status-codes": {
-      "name": "http-status-codes",
+    "warn-once": {
+      "name": "warn-once",
       "version": null,
       "nativeModule": false
     },
@@ -345,13 +360,8 @@
       "version": null,
       "nativeModule": false
     },
-    "warn-once": {
-      "name": "warn-once",
-      "version": null,
-      "nativeModule": false
-    },
-    "react-native-nitro-modules": {
-      "name": "react-native-nitro-modules",
+    "react-freeze": {
+      "name": "react-freeze",
       "version": null,
       "nativeModule": false
     },
@@ -360,8 +370,8 @@
       "version": null,
       "nativeModule": false
     },
-    "react-freeze": {
-      "name": "react-freeze",
+    "react-native-nitro-modules": {
+      "name": "react-native-nitro-modules",
       "version": null,
       "nativeModule": false
     }

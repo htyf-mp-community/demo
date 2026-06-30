@@ -35,15 +35,25 @@
       "version": "0.19.1",
       "nativeModule": false
     },
-    "react-native-reanimated": {
-      "name": "react-native-reanimated",
-      "version": "4.3.0",
-      "nativeModule": true
+    "regenerator-runtime": {
+      "name": "regenerator-runtime",
+      "version": null,
+      "nativeModule": false
     },
     "@gorhom/bottom-sheet": {
       "name": "@gorhom/bottom-sheet",
       "version": null,
       "nativeModule": false
+    },
+    "abort-controller": {
+      "name": "abort-controller",
+      "version": null,
+      "nativeModule": false
+    },
+    "react-native-reanimated": {
+      "name": "react-native-reanimated",
+      "version": "4.3.0",
+      "nativeModule": true
     },
     "events": {
       "name": "events",
@@ -65,28 +75,18 @@
       "version": null,
       "nativeModule": false
     },
-    "react-native-safe-area-context": {
-      "name": "react-native-safe-area-context",
-      "version": null,
-      "nativeModule": false
-    },
     "shallowequal": {
       "name": "shallowequal",
       "version": null,
       "nativeModule": false
     },
-    "regenerator-runtime": {
-      "name": "regenerator-runtime",
+    "react-native-safe-area-context": {
+      "name": "react-native-safe-area-context",
       "version": null,
       "nativeModule": false
     },
-    "abort-controller": {
-      "name": "abort-controller",
-      "version": null,
-      "nativeModule": false
-    },
-    "nullthrows": {
-      "name": "nullthrows",
+    "react-native-video": {
+      "name": "react-native-video",
       "version": null,
       "nativeModule": false
     },
@@ -95,8 +95,13 @@
       "version": null,
       "nativeModule": false
     },
-    "react-native-video": {
-      "name": "react-native-video",
+    "nullthrows": {
+      "name": "nullthrows",
+      "version": null,
+      "nativeModule": false
+    },
+    "promise": {
+      "name": "promise",
       "version": null,
       "nativeModule": false
     },
@@ -110,26 +115,6 @@
       "version": null,
       "nativeModule": false
     },
-    "@react-native/virtualized-lists": {
-      "name": "@react-native/virtualized-lists",
-      "version": null,
-      "nativeModule": false
-    },
-    "promise": {
-      "name": "promise",
-      "version": null,
-      "nativeModule": false
-    },
-    "@react-native-clipboard/clipboard": {
-      "name": "@react-native-clipboard/clipboard",
-      "version": null,
-      "nativeModule": false
-    },
-    "event-target-shim": {
-      "name": "event-target-shim",
-      "version": null,
-      "nativeModule": false
-    },
     "base64-js": {
       "name": "base64-js",
       "version": null,
@@ -140,8 +125,28 @@
       "version": null,
       "nativeModule": false
     },
+    "@react-native/virtualized-lists": {
+      "name": "@react-native/virtualized-lists",
+      "version": null,
+      "nativeModule": false
+    },
+    "event-target-shim": {
+      "name": "event-target-shim",
+      "version": null,
+      "nativeModule": false
+    },
+    "@react-native-clipboard/clipboard": {
+      "name": "@react-native-clipboard/clipboard",
+      "version": null,
+      "nativeModule": false
+    },
     "@react-navigation/bottom-tabs": {
       "name": "@react-navigation/bottom-tabs",
+      "version": null,
+      "nativeModule": false
+    },
+    "stacktrace-parser": {
+      "name": "stacktrace-parser",
       "version": null,
       "nativeModule": false
     },
@@ -165,13 +170,13 @@
       "version": null,
       "nativeModule": false
     },
-    "zustand": {
-      "name": "zustand",
+    "isomorphic-rslog": {
+      "name": "isomorphic-rslog",
       "version": null,
       "nativeModule": false
     },
-    "isomorphic-rslog": {
-      "name": "isomorphic-rslog",
+    "zustand": {
+      "name": "zustand",
       "version": null,
       "nativeModule": false
     },
@@ -179,16 +184,6 @@
       "name": "@react-navigation/core",
       "version": null,
       "nativeModule": false
-    },
-    "stacktrace-parser": {
-      "name": "stacktrace-parser",
-      "version": null,
-      "nativeModule": false
-    },
-    "react-native-worklets": {
-      "name": "react-native-worklets",
-      "version": "0.8.1",
-      "nativeModule": true
     },
     "@htyf-mp/js-sdk": {
       "name": "@htyf-mp/js-sdk",
@@ -199,6 +194,11 @@
       "name": "scheduler",
       "version": null,
       "nativeModule": false
+    },
+    "react-native-worklets": {
+      "name": "react-native-worklets",
+      "version": "0.8.1",
+      "nativeModule": true
     },
     "url-parse": {
       "name": "url-parse",
@@ -230,8 +230,8 @@
       "version": null,
       "nativeModule": false
     },
-    "use-sync-external-store": {
-      "name": "use-sync-external-store",
+    "requires-port": {
+      "name": "requires-port",
       "version": null,
       "nativeModule": false
     },
@@ -240,8 +240,8 @@
       "version": null,
       "nativeModule": false
     },
-    "requires-port": {
-      "name": "requires-port",
+    "use-sync-external-store": {
+      "name": "use-sync-external-store",
       "version": null,
       "nativeModule": false
     },
@@ -255,13 +255,13 @@
       "version": null,
       "nativeModule": false
     },
-    "nanoid": {
-      "name": "nanoid",
+    "@react-navigation/routers": {
+      "name": "@react-navigation/routers",
       "version": null,
       "nativeModule": false
     },
-    "@react-navigation/routers": {
-      "name": "@react-navigation/routers",
+    "nanoid": {
+      "name": "nanoid",
       "version": null,
       "nativeModule": false
     },
@@ -275,8 +275,8 @@
       "version": null,
       "nativeModule": false
     },
-    "use-latest-callback": {
-      "name": "use-latest-callback",
+    "fast-deep-equal": {
+      "name": "fast-deep-equal",
       "version": null,
       "nativeModule": false
     },
@@ -285,8 +285,8 @@
       "version": null,
       "nativeModule": false
     },
-    "fast-deep-equal": {
-      "name": "fast-deep-equal",
+    "use-latest-callback": {
+      "name": "use-latest-callback",
       "version": null,
       "nativeModule": false
     },
@@ -310,6 +310,11 @@
       "version": null,
       "nativeModule": false
     },
+    "decode-uri-component": {
+      "name": "decode-uri-component",
+      "version": null,
+      "nativeModule": false
+    },
     "filter-obj": {
       "name": "filter-obj",
       "version": null,
@@ -320,33 +325,8 @@
       "version": null,
       "nativeModule": false
     },
-    "decode-uri-component": {
-      "name": "decode-uri-component",
-      "version": null,
-      "nativeModule": false
-    },
     "strict-uri-encode": {
       "name": "strict-uri-encode",
-      "version": null,
-      "nativeModule": false
-    },
-    "http-status-codes": {
-      "name": "http-status-codes",
-      "version": null,
-      "nativeModule": false
-    },
-    "buffer": {
-      "name": "buffer",
-      "version": null,
-      "nativeModule": false
-    },
-    "@react-native-masked-view/masked-view": {
-      "name": "@react-native-masked-view/masked-view",
-      "version": null,
-      "nativeModule": false
-    },
-    "warn-once": {
-      "name": "warn-once",
       "version": null,
       "nativeModule": false
     },
@@ -355,18 +335,38 @@
       "version": null,
       "nativeModule": false
     },
+    "http-status-codes": {
+      "name": "http-status-codes",
+      "version": null,
+      "nativeModule": false
+    },
+    "@react-native-masked-view/masked-view": {
+      "name": "@react-native-masked-view/masked-view",
+      "version": null,
+      "nativeModule": false
+    },
     "simple-swizzle": {
       "name": "simple-swizzle",
       "version": null,
       "nativeModule": false
     },
-    "react-freeze": {
-      "name": "react-freeze",
+    "buffer": {
+      "name": "buffer",
+      "version": null,
+      "nativeModule": false
+    },
+    "warn-once": {
+      "name": "warn-once",
       "version": null,
       "nativeModule": false
     },
     "ieee754": {
       "name": "ieee754",
+      "version": null,
+      "nativeModule": false
+    },
+    "react-freeze": {
+      "name": "react-freeze",
       "version": null,
       "nativeModule": false
     },

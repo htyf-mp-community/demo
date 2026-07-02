@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "0.0.63",
+  "version": "0.0.64",
   "name": "MangaReader",
   "appid": "plugin_manga",
   "rotate": "portrait",

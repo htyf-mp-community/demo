@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "name": "影视基地",
   "appid": "plugin_movie",
   "rotate": "portrait",

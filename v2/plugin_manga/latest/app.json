@@ -1,12 +1,12 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "0.0.66",
-  "name": "MangaReader",
-  "appid": "plugin_manga",
+  "version": "1.0.20",
+  "name": "SimpleLive",
+  "appid": "plugin_live",
   "rotate": "portrait",
-  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/app.json",
-  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/dist.dgz",
-  "projectname": "MangaReader",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/dist.dgz",
+  "projectname": "SimpleLive",
   "engines": "2.0.0"
 }

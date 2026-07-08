@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "name": "MusicFree",
   "appid": "plugin_music",
   "rotate": "portrait",

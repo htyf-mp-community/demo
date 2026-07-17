@@ -5,8 +5,8 @@
   "name": "SDK",
   "appid": "plugin_sdk",
   "rotate": "portrait",
-  "appUrlConfig": "https://hongtangyun-1252095557.cos.accelerate.myqcloud.com/assets/testMiniApps/appstore/plugin/sdk/latest//app.json",
-  "zipUrl": "https://hongtangyun-1252095557.cos.accelerate.myqcloud.com/assets/testMiniApps/appstore/plugin/sdk/latest//dist.dgz",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.accelerate.myqcloud.com/assets/testMiniApps/appstore/plugin/sdk/latest/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.accelerate.myqcloud.com/assets/testMiniApps/appstore/plugin/sdk/latest/dist.dgz",
   "projectname": "小程序",
   "engines": "2.0.0"
 }

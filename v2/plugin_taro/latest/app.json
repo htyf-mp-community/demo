@@ -1,0 +1,9 @@
+{
+  "type": "app",
+  "engines": "2.0.0",
+  "name": "Taro",
+  "appid": "plugin_taro",
+  "version": "0.0.4",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.accelerate.myqcloud.com/assets/testMiniApps/appstore/plugin/taro/latest/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.accelerate.myqcloud.com/assets/testMiniApps/appstore/plugin/taro/latest/dist.dgz"
+}

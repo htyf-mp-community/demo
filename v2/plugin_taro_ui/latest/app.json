@@ -1,0 +1,10 @@
+{
+  "rotate": "portrait",
+  "type": "app",
+  "engines": "2.0.0",
+  "name": "taro_ui",
+  "appid": "htyf565635841f9879d4",
+  "version": "1.0.2",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_taro_ui/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_taro_ui/latest/dist.dgz"
+}

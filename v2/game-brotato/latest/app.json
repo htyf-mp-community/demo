@@ -1,0 +1,11 @@
+{
+  "type": "game",
+  "name": "Brotato",
+  "version": "0.0.2",
+  "appid": "htyfappf49da0bb73f392e688e9754211",
+  "rotate": "landscape",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/testMiniApps/appstore/plugin/game-brotato/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/testMiniApps/appstore/plugin/game-brotato/dist.[PLATFORM].dgz",
+  "projectname": "小程序",
+  "engines": "2.0.0"
+}

@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "name": "Kazumi",
   "appid": "htyfappfdee60c7512d0b292a63f252e8e64f16",
   "rotate": "portrait",

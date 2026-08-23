@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.33",
+  "version": "1.0.39",
   "name": "SDK",
   "appid": "plugin_sdk",
   "rotate": "portrait",

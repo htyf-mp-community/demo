@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "entry": "./src/index.tsx",
+  "version": "0.0.3",
+  "name": "Legado",
+  "appid": "plugin_legado",
+  "rotate": "auto",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/dist.dgz",
+  "projectname": "小程序",
+  "engines": "2.0.0"
+}

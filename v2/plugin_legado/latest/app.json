@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "0.0.5",
+  "version": "0.0.10",
   "name": "Legado",
   "appid": "plugin_legado",
   "rotate": "auto",

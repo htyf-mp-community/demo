@@ -7,7 +7,7 @@ const rawUrl = `https://raw.githubusercontent.com/htyf-mp-community/demo/main/ap
 // 处理单个 app.json 文件
 function processApp(appConfigPath, relativePath) {
     const data = require(appConfigPath)
-    const url = `https://share.dagouzhi.com/#/pages/index/index?data=${encodeURIComponent(JSON.stringify(data))}`
+    const url = `https://mp.dagouzhi.com/share?data=${encodeURIComponent(JSON.stringify(data))}`
     const qrcodePath = path.join(path.dirname(appConfigPath), 'qrcode.png')
     
     QRCode.toFile(qrcodePath, url, {

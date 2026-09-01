@@ -40,15 +40,15 @@
       "version": "0.2.25",
       "nativeModule": false
     },
-    "react-native-file-access": {
-      "name": "react-native-file-access",
-      "version": "4.0.3",
-      "nativeModule": true
-    },
     "@module-federation/enhanced": {
       "name": "@module-federation/enhanced",
       "version": "0.8.9",
       "nativeModule": false
+    },
+    "react-native-file-access": {
+      "name": "react-native-file-access",
+      "version": "4.0.3",
+      "nativeModule": true
     },
     "lz-string": {
       "name": "lz-string",
@@ -60,14 +60,14 @@
       "version": "9.2.0",
       "nativeModule": false
     },
-    "@react-navigation/native-stack": {
-      "name": "@react-navigation/native-stack",
-      "version": "7.14.11",
-      "nativeModule": false
-    },
     "@react-navigation/native": {
       "name": "@react-navigation/native",
       "version": "7.2.2",
+      "nativeModule": false
+    },
+    "@react-navigation/native-stack": {
+      "name": "@react-navigation/native-stack",
+      "version": "7.14.11",
       "nativeModule": false
     },
     "native-base": {
@@ -90,21 +90,6 @@
       "version": "2.2.4",
       "nativeModule": false
     },
-    "shallowequal": {
-      "name": "shallowequal",
-      "version": "1.1.0",
-      "nativeModule": false
-    },
-    "react-native-vector-icons": {
-      "name": "react-native-vector-icons",
-      "version": "10.3.0",
-      "nativeModule": true
-    },
-    "regenerator-runtime": {
-      "name": "regenerator-runtime",
-      "version": "0.13.11",
-      "nativeModule": false
-    },
     "@react-native/assets-registry": {
       "name": "@react-native/assets-registry",
       "version": "0.86.3",
@@ -115,19 +100,39 @@
       "version": "3.2.1",
       "nativeModule": true
     },
+    "shallowequal": {
+      "name": "shallowequal",
+      "version": "1.1.0",
+      "nativeModule": false
+    },
+    "regenerator-runtime": {
+      "name": "regenerator-runtime",
+      "version": "0.13.11",
+      "nativeModule": false
+    },
+    "abort-controller": {
+      "name": "abort-controller",
+      "version": "3.0.0",
+      "nativeModule": false
+    },
     "nullthrows": {
       "name": "nullthrows",
       "version": "1.1.1",
       "nativeModule": false
+    },
+    "react-native-vector-icons": {
+      "name": "react-native-vector-icons",
+      "version": "10.3.0",
+      "nativeModule": true
     },
     "memoize-one": {
       "name": "memoize-one",
       "version": "5.2.1",
       "nativeModule": false
     },
-    "abort-controller": {
-      "name": "abort-controller",
-      "version": "3.0.0",
+    "use-sync-external-store": {
+      "name": "use-sync-external-store",
+      "version": "1.6.0",
       "nativeModule": false
     },
     "react-native-draggable-flatlist": {
@@ -150,11 +155,6 @@
       "version": "4.2.0",
       "nativeModule": false
     },
-    "use-sync-external-store": {
-      "name": "use-sync-external-store",
-      "version": "1.6.0",
-      "nativeModule": false
-    },
     "@react-native/virtualized-lists": {
       "name": "@react-native/virtualized-lists",
       "version": "0.86.3",
@@ -170,11 +170,6 @@
       "version": "14.0.1",
       "nativeModule": true
     },
-    "react-native-safe-area-context": {
-      "name": "react-native-safe-area-context",
-      "version": "5.9.1",
-      "nativeModule": true
-    },
     "base64-js": {
       "name": "base64-js",
       "version": "1.5.1",
@@ -185,29 +180,24 @@
       "version": "3.6.20",
       "nativeModule": false
     },
-    "react-native-reanimated": {
-      "name": "react-native-reanimated",
-      "version": "4.6.0",
-      "nativeModule": true
-    },
     "@react-navigation/core": {
       "name": "@react-navigation/core",
       "version": "7.21.13",
       "nativeModule": false
     },
+    "react-native-safe-area-context": {
+      "name": "react-native-safe-area-context",
+      "version": "5.9.1",
+      "nativeModule": true
+    },
+    "react-native-reanimated": {
+      "name": "react-native-reanimated",
+      "version": "4.6.0",
+      "nativeModule": true
+    },
     "event-target-shim": {
       "name": "event-target-shim",
       "version": "5.0.1",
-      "nativeModule": false
-    },
-    "@react-native/normalize-colors": {
-      "name": "@react-native/normalize-colors",
-      "version": "0.86.3",
-      "nativeModule": false
-    },
-    "redux-saga": {
-      "name": "redux-saga",
-      "version": "1.4.2",
       "nativeModule": false
     },
     "buffer": {
@@ -235,6 +225,16 @@
       "version": "9.3.1",
       "nativeModule": false
     },
+    "redux-saga": {
+      "name": "redux-saga",
+      "version": "1.4.2",
+      "nativeModule": false
+    },
+    "@react-native/normalize-colors": {
+      "name": "@react-native/normalize-colors",
+      "version": "0.86.3",
+      "nativeModule": false
+    },
     "dayjs": {
       "name": "dayjs",
       "version": "1.11.20",
@@ -255,14 +255,19 @@
       "version": "0.1.11",
       "nativeModule": false
     },
-    "prop-types": {
-      "name": "prop-types",
-      "version": "15.8.1",
-      "nativeModule": false
-    },
     "isomorphic-rslog": {
       "name": "isomorphic-rslog",
       "version": "0.0.7",
+      "nativeModule": false
+    },
+    "react-native-volume-manager": {
+      "name": "react-native-volume-manager",
+      "version": "2.0.8",
+      "nativeModule": true
+    },
+    "prop-types": {
+      "name": "prop-types",
+      "version": "15.8.1",
       "nativeModule": false
     },
     "react-native-canvas": {
@@ -274,16 +279,6 @@
       "name": "cheerio",
       "version": "1.2.0",
       "nativeModule": false
-    },
-    "scheduler": {
-      "name": "scheduler",
-      "version": "0.27.0",
-      "nativeModule": false
-    },
-    "react-native-volume-manager": {
-      "name": "react-native-volume-manager",
-      "version": "2.0.8",
-      "nativeModule": true
     },
     "react-native-share": {
       "name": "react-native-share",
@@ -310,19 +305,24 @@
       "version": "4.2.3",
       "nativeModule": false
     },
+    "scheduler": {
+      "name": "scheduler",
+      "version": "0.27.0",
+      "nativeModule": false
+    },
     "ieee754": {
       "name": "ieee754",
       "version": "1.2.1",
       "nativeModule": false
     },
-    "fast-deep-equal": {
-      "name": "fast-deep-equal",
-      "version": "3.1.3",
-      "nativeModule": false
-    },
     "valid-url": {
       "name": "valid-url",
       "version": "1.0.9",
+      "nativeModule": false
+    },
+    "fast-deep-equal": {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
       "nativeModule": false
     },
     "@sagold/json-pointer": {
@@ -335,14 +335,14 @@
       "version": "4.4.1",
       "nativeModule": false
     },
-    "@redux-saga/core": {
-      "name": "@redux-saga/core",
-      "version": "1.5.1",
-      "nativeModule": false
-    },
     "fast-copy": {
       "name": "fast-copy",
       "version": "4.1.0",
+      "nativeModule": false
+    },
+    "@redux-saga/core": {
+      "name": "@redux-saga/core",
+      "version": "1.5.1",
       "nativeModule": false
     },
     "react-native-screens": {
@@ -360,13 +360,8 @@
       "version": "4.4.2",
       "nativeModule": false
     },
-    "stable-hash": {
-      "name": "stable-hash",
-      "version": "0.0.2",
-      "nativeModule": false
-    },
-    "lodash.merge": {
-      "name": "lodash.merge",
+    "lodash.mergewith": {
+      "name": "lodash.mergewith",
       "version": "4.6.2",
       "nativeModule": false
     },
@@ -375,34 +370,29 @@
       "version": "4.0.0",
       "nativeModule": false
     },
-    "lodash.isempty": {
-      "name": "lodash.isempty",
-      "version": "4.4.0",
-      "nativeModule": false
-    },
-    "lodash.omit": {
-      "name": "lodash.omit",
-      "version": "4.18.0",
-      "nativeModule": false
-    },
-    "lodash.omitby": {
-      "name": "lodash.omitby",
-      "version": "4.6.0",
-      "nativeModule": false
-    },
-    "lodash.pick": {
-      "name": "lodash.pick",
-      "version": "4.4.0",
-      "nativeModule": false
-    },
-    "tinycolor2": {
-      "name": "tinycolor2",
-      "version": "1.6.0",
-      "nativeModule": false
-    },
-    "lodash.mergewith": {
-      "name": "lodash.mergewith",
+    "lodash.merge": {
+      "name": "lodash.merge",
       "version": "4.6.2",
+      "nativeModule": false
+    },
+    "immer": {
+      "name": "immer",
+      "version": "11.1.18",
+      "nativeModule": false
+    },
+    "redux-thunk": {
+      "name": "redux-thunk",
+      "version": "3.1.0",
+      "nativeModule": false
+    },
+    "redux": {
+      "name": "redux",
+      "version": "5.0.1",
+      "nativeModule": false
+    },
+    "stable-hash": {
+      "name": "stable-hash",
+      "version": "0.0.2",
       "nativeModule": false
     },
     "@react-native-aria/utils": {
@@ -415,34 +405,34 @@
       "version": "0.3.15",
       "nativeModule": false
     },
-    "redux": {
-      "name": "redux",
-      "version": "5.0.1",
-      "nativeModule": false
-    },
-    "redux-thunk": {
-      "name": "redux-thunk",
-      "version": "3.1.0",
-      "nativeModule": false
-    },
-    "immer": {
-      "name": "immer",
-      "version": "11.1.18",
-      "nativeModule": false
-    },
-    "@d11/react-native-fast-image": {
-      "name": "@d11/react-native-fast-image",
-      "version": "8.13.0",
-      "nativeModule": true
-    },
-    "@react-native-aria/interactions": {
-      "name": "@react-native-aria/interactions",
-      "version": "0.2.16",
-      "nativeModule": false
-    },
     "escape-string-regexp": {
       "name": "escape-string-regexp",
       "version": "4.0.0",
+      "nativeModule": false
+    },
+    "lodash.isempty": {
+      "name": "lodash.isempty",
+      "version": "4.4.0",
+      "nativeModule": false
+    },
+    "lodash.omitby": {
+      "name": "lodash.omitby",
+      "version": "4.6.0",
+      "nativeModule": false
+    },
+    "tinycolor2": {
+      "name": "tinycolor2",
+      "version": "1.6.0",
+      "nativeModule": false
+    },
+    "lodash.omit": {
+      "name": "lodash.omit",
+      "version": "4.18.0",
+      "nativeModule": false
+    },
+    "lodash.pick": {
+      "name": "lodash.pick",
+      "version": "4.4.0",
       "nativeModule": false
     },
     "@react-native-aria/focus": {
@@ -450,29 +440,24 @@
       "version": "0.2.9",
       "nativeModule": false
     },
-    "nanoid": {
-      "name": "nanoid",
-      "version": "3.3.18",
-      "nativeModule": false
+    "@d11/react-native-fast-image": {
+      "name": "@d11/react-native-fast-image",
+      "version": "8.13.0",
+      "nativeModule": true
     },
     "react-native-mmkv": {
       "name": "react-native-mmkv",
       "version": "4.3.2",
       "nativeModule": true
     },
-    "react-native-is-edge-to-edge": {
-      "name": "react-native-is-edge-to-edge",
-      "version": "1.3.1",
+    "nanoid": {
+      "name": "nanoid",
+      "version": "3.3.18",
       "nativeModule": false
     },
-    "color-string": {
-      "name": "color-string",
-      "version": "1.9.1",
-      "nativeModule": false
-    },
-    "color-convert": {
-      "name": "color-convert",
-      "version": "2.0.1",
+    "@react-native-aria/interactions": {
+      "name": "@react-native-aria/interactions",
+      "version": "0.2.16",
       "nativeModule": false
     },
     "decode-uri-component": {
@@ -490,9 +475,19 @@
       "version": "3.0.0",
       "nativeModule": false
     },
-    "lodash.clonedeep": {
-      "name": "lodash.clonedeep",
-      "version": "4.5.0",
+    "color-convert": {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "nativeModule": false
+    },
+    "color-string": {
+      "name": "color-string",
+      "version": "1.9.1",
+      "nativeModule": false
+    },
+    "react-native-is-edge-to-edge": {
+      "name": "react-native-is-edge-to-edge",
+      "version": "1.3.1",
       "nativeModule": false
     },
     "@redux-saga/symbols": {
@@ -505,34 +500,19 @@
       "version": "1.3.1",
       "nativeModule": false
     },
-    "@redux-saga/is": {
-      "name": "@redux-saga/is",
-      "version": "1.2.1",
-      "nativeModule": false
-    },
     "@redux-saga/delay-p": {
       "name": "@redux-saga/delay-p",
       "version": "1.3.1",
       "nativeModule": false
     },
-    "@react-native-aria/checkbox": {
-      "name": "@react-native-aria/checkbox",
-      "version": "0.2.10",
+    "@redux-saga/is": {
+      "name": "@redux-saga/is",
+      "version": "1.2.1",
       "nativeModule": false
     },
-    "@react-aria/visually-hidden": {
-      "name": "@react-aria/visually-hidden",
-      "version": "3.9.1",
-      "nativeModule": false
-    },
-    "@react-native-aria/radio": {
-      "name": "@react-native-aria/radio",
-      "version": "0.2.13",
-      "nativeModule": false
-    },
-    "@react-native-aria/slider": {
-      "name": "@react-native-aria/slider",
-      "version": "0.2.12",
+    "lodash.clonedeep": {
+      "name": "lodash.clonedeep",
+      "version": "4.5.0",
       "nativeModule": false
     },
     "lodash.has": {
@@ -545,11 +525,6 @@
       "version": "4.0.1",
       "nativeModule": false
     },
-    "react-native-worklets": {
-      "name": "react-native-worklets",
-      "version": "0.12.1",
-      "nativeModule": true
-    },
     "@react-aria/ssr": {
       "name": "@react-aria/ssr",
       "version": "3.10.1",
@@ -558,6 +533,31 @@
     "@react-aria/utils": {
       "name": "@react-aria/utils",
       "version": "3.34.1",
+      "nativeModule": false
+    },
+    "@react-native-aria/button": {
+      "name": "@react-native-aria/button",
+      "version": "0.2.10",
+      "nativeModule": false
+    },
+    "@react-native-aria/combobox": {
+      "name": "@react-native-aria/combobox",
+      "version": "0.2.7",
+      "nativeModule": false
+    },
+    "@react-native-aria/listbox": {
+      "name": "@react-native-aria/listbox",
+      "version": "0.2.9",
+      "nativeModule": false
+    },
+    "react-native-worklets": {
+      "name": "react-native-worklets",
+      "version": "0.12.1",
+      "nativeModule": true
+    },
+    "@react-aria/visually-hidden": {
+      "name": "@react-aria/visually-hidden",
+      "version": "3.9.1",
       "nativeModule": false
     },
     "dom-serializer": {
@@ -570,18 +570,8 @@
       "version": "3.2.2",
       "nativeModule": false
     },
-    "@react-native-aria/listbox": {
-      "name": "@react-native-aria/listbox",
-      "version": "0.2.9",
-      "nativeModule": false
-    },
-    "@react-native-aria/combobox": {
-      "name": "@react-native-aria/combobox",
-      "version": "0.2.7",
-      "nativeModule": false
-    },
-    "@react-native-aria/button": {
-      "name": "@react-native-aria/button",
+    "@react-native-aria/checkbox": {
+      "name": "@react-native-aria/checkbox",
       "version": "0.2.10",
       "nativeModule": false
     },
@@ -590,25 +580,25 @@
       "version": "10.1.0",
       "nativeModule": false
     },
+    "@react-native-aria/slider": {
+      "name": "@react-native-aria/slider",
+      "version": "0.2.12",
+      "nativeModule": false
+    },
+    "@react-native-aria/radio": {
+      "name": "@react-native-aria/radio",
+      "version": "0.2.13",
+      "nativeModule": false
+    },
     "react-native-nitro-modules": {
       "name": "react-native-nitro-modules",
       "version": "0.37.1",
       "nativeModule": true
     },
-    "@react-stately/utils": {
-      "name": "@react-stately/utils",
-      "version": "3.12.1",
-      "nativeModule": false
-    },
     "react-native-svg": {
       "name": "react-native-svg",
       "version": "15.15.5",
       "nativeModule": true
-    },
-    "strict-uri-encode": {
-      "name": "strict-uri-encode",
-      "version": "2.0.0",
-      "nativeModule": false
     },
     "color-name": {
       "name": "color-name",
@@ -618,6 +608,16 @@
     "simple-swizzle": {
       "name": "simple-swizzle",
       "version": "0.2.4",
+      "nativeModule": false
+    },
+    "@react-stately/utils": {
+      "name": "@react-stately/utils",
+      "version": "3.12.1",
+      "nativeModule": false
+    },
+    "strict-uri-encode": {
+      "name": "strict-uri-encode",
+      "version": "2.0.0",
       "nativeModule": false
     },
     "warn-once": {
@@ -650,6 +650,11 @@
       "version": "3.51.0",
       "nativeModule": false
     },
+    "react-stately": {
+      "name": "react-stately",
+      "version": "3.49.0",
+      "nativeModule": false
+    },
     "domelementtype": {
       "name": "domelementtype",
       "version": "2.3.0",
@@ -660,19 +665,9 @@
       "version": "4.5.0",
       "nativeModule": false
     },
-    "react-stately": {
-      "name": "react-stately",
-      "version": "3.49.0",
-      "nativeModule": false
-    },
     "react-freeze": {
       "name": "react-freeze",
       "version": "1.0.4",
-      "nativeModule": false
-    },
-    "@react-stately/toggle": {
-      "name": "@react-stately/toggle",
-      "version": "3.10.1",
       "nativeModule": false
     },
     "semver": {
@@ -680,19 +675,14 @@
       "version": "7.8.5",
       "nativeModule": false
     },
-    "@react-aria/label": {
-      "name": "@react-aria/label",
-      "version": "3.8.1",
-      "nativeModule": false
-    },
     "cheerio-select": {
       "name": "cheerio-select",
       "version": "2.1.0",
       "nativeModule": false
     },
-    "@react-native-aria/toggle": {
-      "name": "@react-native-aria/toggle",
-      "version": "0.2.11",
+    "clsx": {
+      "name": "clsx",
+      "version": "2.1.1",
       "nativeModule": false
     },
     "react-dom": {
@@ -700,9 +690,19 @@
       "version": "19.2.3",
       "nativeModule": false
     },
-    "clsx": {
-      "name": "clsx",
-      "version": "2.1.1",
+    "@react-aria/label": {
+      "name": "@react-aria/label",
+      "version": "3.8.1",
+      "nativeModule": false
+    },
+    "@react-stately/toggle": {
+      "name": "@react-stately/toggle",
+      "version": "3.10.1",
+      "nativeModule": false
+    },
+    "@react-native-aria/toggle": {
+      "name": "@react-native-aria/toggle",
+      "version": "0.2.11",
       "nativeModule": false
     },
     "boolbase": {

@@ -1,0 +1,11 @@
+{
+  "type": "game",
+  "name": "ccfish",
+  "version": "1.0.5",
+  "appid": "htyfappa86ac64068242ebaa382becfc52f6de4",
+  "rotate": "landscape",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/ccfish/latest/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/ccfish/latest/dist.[PLATFORM].dgz",
+  "projectname": "捕鱼达人",
+  "engines": "2.0.0"
+}

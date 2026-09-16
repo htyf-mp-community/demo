@@ -1,0 +1,11 @@
+{
+  "type": "game",
+  "name": "super-dungeon-delve",
+  "version": "1.0.5",
+  "appid": "htyfapp94a9a4080695b2442ced1cf388b3d477",
+  "rotate": "landscape",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/super-dungeon-delve/latest/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/super-dungeon-delve/latest/dist.[PLATFORM].dgz",
+  "projectname": "超级地牢",
+  "engines": "2.0.0"
+}

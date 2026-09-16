@@ -1,0 +1,11 @@
+{
+  "type": "game",
+  "name": "dont-stop",
+  "version": "1.0.3",
+  "appid": "htyfapp6f1778629eea55011671ae43cc7f893c",
+  "rotate": "landscape",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/dont-stop/latest/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/dont-stop/latest/dist.[PLATFORM].dgz",
+  "projectname": "不要停下",
+  "engines": "2.0.0"
+}

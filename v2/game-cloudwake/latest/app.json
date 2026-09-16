@@ -1,0 +1,11 @@
+{
+  "type": "game",
+  "name": "cloudwake",
+  "version": "0.3.3",
+  "appid": "htyfapp753a157e01067c482d141447eb042098",
+  "rotate": "landscape",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/cloudwake/latest/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/cloudwake/latest/dist.[PLATFORM].dgz",
+  "projectname": "云舟漂流记",
+  "engines": "2.0.0"
+}

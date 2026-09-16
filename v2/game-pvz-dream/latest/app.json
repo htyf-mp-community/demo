@@ -1,0 +1,11 @@
+{
+  "type": "game",
+  "name": "pvz-dream",
+  "version": "1.0.4",
+  "appid": "htyfapp73e807043bf6b6710dfbcc1d144370b0",
+  "rotate": "landscape",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/pvz-dream/latest/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/pvz-dream/latest/dist.[PLATFORM].dgz",
+  "projectname": "植物梦境",
+  "engines": "2.0.0"
+}

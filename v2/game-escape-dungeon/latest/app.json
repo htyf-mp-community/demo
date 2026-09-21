@@ -1,0 +1,11 @@
+{
+  "type": "game",
+  "name": "逃出地下城",
+  "version": "1.0.45",
+  "appid": "htyfapp2063ea1283cd93f998c94f47431ce3de",
+  "rotate": "portrait",
+  "appUrlConfig": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/escape-dungeon/latest/app.json",
+  "zipUrl": "https://hongtangyun-1252095557.cos.ap-chengdu.myqcloud.com/assets/game/escape-dungeon/latest/dist.[PLATFORM].dgz",
+  "projectname": "逃出地下城",
+  "engines": "2.0.0"
+}

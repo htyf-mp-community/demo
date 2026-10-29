@@ -1,10 +1,10 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.46",
+  "version": "1.0.121",
   "name": "SimpleLive",
   "appid": "plugin_live",
-  "rotate": "portrait",
+  "rotate": "auto",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/dist.dgz",
   "projectname": "SimpleLive",

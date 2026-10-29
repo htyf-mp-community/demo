@@ -1,0 +1,13 @@
+{
+  "type": "app",
+  "entry": "./src/index.tsx",
+  "version": "1.9.57",
+  "name": "洛雪音乐",
+  "appid": "htyfappfa88ca03300e6ed10794b74ea5d92bf4",
+  "rotate": "auto",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_lx_music/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_lx_music/latest/dist.[PLATFORM].dgz",
+  "projectname": "洛雪音乐",
+  "icon": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_lx_music/latest/icon.png",
+  "engines": "2.0.0"
+}

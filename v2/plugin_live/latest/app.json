@@ -1,12 +1,12 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.138",
-  "name": "SimpleLive",
+  "version": "1.0.142",
+  "name": "简单直播",
   "appid": "plugin_live",
   "rotate": "auto",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_live/latest/dist.dgz",
-  "projectname": "SimpleLive",
+  "projectname": "简单直播",
   "engines": "2.0.0"
 }

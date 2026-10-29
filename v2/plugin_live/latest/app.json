@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.121",
+  "version": "1.0.129",
   "name": "SimpleLive",
   "appid": "plugin_live",
   "rotate": "auto",

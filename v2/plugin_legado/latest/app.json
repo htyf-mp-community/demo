@@ -1,12 +1,12 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "0.0.48",
-  "name": "Legado",
+  "version": "0.0.49",
+  "name": "阅读",
   "appid": "plugin_legado",
   "rotate": "auto",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_legado/latest/app.json",
   "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_legado/latest/dist.dgz",
-  "projectname": "小程序",
+  "projectname": "阅读",
   "engines": "2.0.0"
 }

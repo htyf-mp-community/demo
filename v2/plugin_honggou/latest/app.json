@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "entry": "./src/index.tsx",
+  "version": "1.0.57",
+  "name": "红果视频",
+  "appid": "htyfappd614a1a8982a58943a10f39bc057e70e",
+  "rotate": "portrait",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_honggou/latestapp.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_honggou/latest/dist.dgz",
+  "projectname": "红果视频",
+  "engines": "2.0.0"
+}

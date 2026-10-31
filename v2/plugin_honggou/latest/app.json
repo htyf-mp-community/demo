@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.114",
+  "version": "1.0.115",
   "name": "红果视频",
   "appid": "htyfappd614a1a8982a58943a10f39bc057e70e",
   "rotate": "portrait",

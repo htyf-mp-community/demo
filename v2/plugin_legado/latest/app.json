@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "0.0.60",
+  "version": "0.0.61",
   "name": "阅读",
   "appid": "plugin_legado",
   "rotate": "auto",

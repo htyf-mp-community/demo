@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "name": "动漫基地",
   "appid": "plugin_animation",
   "rotate": "portrait",

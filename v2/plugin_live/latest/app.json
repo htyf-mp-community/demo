@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.142",
+  "version": "1.0.145",
   "name": "简单直播",
   "appid": "plugin_live",
   "rotate": "auto",

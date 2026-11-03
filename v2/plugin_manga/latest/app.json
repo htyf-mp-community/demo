@@ -1,8 +1,8 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "0.0.82",
-  "name": "MangaReader",
+  "version": "0.0.84",
+  "name": "漫画",
   "appid": "plugin_manga",
   "rotate": "portrait",
   "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_manga/latest/app.json",

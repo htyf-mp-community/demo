@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "entry": "./src/index.tsx",
+  "version": "1.0.349",
+  "name": "漫画盒子",
+  "appid": "htyfapp382645b6364f650dc1f5b85e47c7e0f6",
+  "rotate": "auto",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_breeze/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_breeze/latest/dist.dgz",
+  "projectname": "Breeze",
+  "engines": "2.0.0"
+}

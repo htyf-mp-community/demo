@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.414",
+  "version": "1.0.415",
   "name": "漫画盒子",
   "appid": "htyfapp382645b6364f650dc1f5b85e47c7e0f6",
   "rotate": "auto",

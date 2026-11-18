@@ -1,0 +1,13 @@
+{
+  "type": "app",
+  "entry": "./src/index.tsx",
+  "version": "1.0.92",
+  "name": "影视TV",
+  "appid": "htyfappdac9534e39bb85684eed3a83be824c07",
+  "rotate": "portrait",
+  "appUrlConfig": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_cineo/latest/app.json",
+  "zipUrl": "https://raw.githubusercontent.com/htyf-mp-community/demo/main/v2/plugin_cineo/latest/dist.dgz",
+  "projectname": "Cineo",
+  "iconPath": "assets/cineo_app_icon.png",
+  "engines": "2.0.0"
+}

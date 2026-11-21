@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.0.344",
+  "version": "1.0.345",
   "name": "影视TV",
   "appid": "htyfappdac9534e39bb85684eed3a83be824c07",
   "rotate": "portrait",

@@ -10,14 +10,14 @@
       "version": "0.88.1",
       "nativeModule": false
     },
-    "@callstack/repack": {
-      "name": "@callstack/repack",
-      "version": "5.4.2",
-      "nativeModule": true
-    },
     "react-native": {
       "name": "react-native",
       "version": "0.88.1",
+      "nativeModule": true
+    },
+    "@callstack/repack": {
+      "name": "@callstack/repack",
+      "version": "5.4.2",
       "nativeModule": true
     },
     "@babel/runtime": {
@@ -85,10 +85,10 @@
       "version": "0.19.1",
       "nativeModule": false
     },
-    "zustand": {
-      "name": "zustand",
-      "version": "5.0.14",
-      "nativeModule": false
+    "react-native-video": {
+      "name": "react-native-video",
+      "version": "6.19.3",
+      "nativeModule": true
     },
     "nullthrows": {
       "name": "nullthrows",
@@ -105,10 +105,10 @@
       "version": "0.13.11",
       "nativeModule": false
     },
-    "react-native-video": {
-      "name": "react-native-video",
-      "version": "6.19.3",
-      "nativeModule": true
+    "zustand": {
+      "name": "zustand",
+      "version": "5.0.14",
+      "nativeModule": false
     },
     "@material/material-color-utilities": {
       "name": "@material/material-color-utilities",
@@ -150,30 +150,25 @@
       "version": "2.14.0",
       "nativeModule": true
     },
-    "react-native-is-edge-to-edge": {
-      "name": "react-native-is-edge-to-edge",
-      "version": "1.3.1",
-      "nativeModule": false
+    "@react-native-clipboard/clipboard": {
+      "name": "@react-native-clipboard/clipboard",
+      "version": "1.16.3",
+      "nativeModule": true
     },
     "base64-js": {
       "name": "base64-js",
       "version": "1.5.1",
       "nativeModule": false
     },
-    "expo-crypto": {
-      "name": "expo-crypto",
-      "version": "58.0.7",
-      "nativeModule": true
-    },
-    "@react-native-clipboard/clipboard": {
-      "name": "@react-native-clipboard/clipboard",
-      "version": "1.16.3",
-      "nativeModule": true
-    },
     "whatwg-fetch": {
       "name": "whatwg-fetch",
       "version": "3.6.20",
       "nativeModule": false
+    },
+    "expo-crypto": {
+      "name": "expo-crypto",
+      "version": "58.0.7",
+      "nativeModule": true
     },
     "@module-federation/error-codes": {
       "name": "@module-federation/error-codes",
@@ -185,19 +180,24 @@
       "version": "0.19.1",
       "nativeModule": false
     },
+    "react-native-is-edge-to-edge": {
+      "name": "react-native-is-edge-to-edge",
+      "version": "1.3.1",
+      "nativeModule": false
+    },
     "tr46": {
       "name": "tr46",
       "version": "0.0.3",
       "nativeModule": false
     },
-    "querystringify": {
-      "name": "querystringify",
-      "version": "2.2.0",
-      "nativeModule": false
-    },
     "requires-port": {
       "name": "requires-port",
       "version": "1.0.0",
+      "nativeModule": false
+    },
+    "querystringify": {
+      "name": "querystringify",
+      "version": "2.2.0",
       "nativeModule": false
     },
     "@react-navigation/stack": {
@@ -225,9 +225,19 @@
       "version": "0.88.1",
       "nativeModule": false
     },
+    "@react-navigation/core": {
+      "name": "@react-navigation/core",
+      "version": "7.24.0",
+      "nativeModule": false
+    },
     "react-native-worklets": {
       "name": "react-native-worklets",
       "version": "0.13.1",
+      "nativeModule": true
+    },
+    "react-native-nitro-modules": {
+      "name": "react-native-nitro-modules",
+      "version": "0.37.1",
       "nativeModule": true
     },
     "@dr.pogodin/react-native-fs": {
@@ -240,16 +250,6 @@
       "version": "4.3.2",
       "nativeModule": true
     },
-    "react-native-nitro-modules": {
-      "name": "react-native-nitro-modules",
-      "version": "0.37.1",
-      "nativeModule": true
-    },
-    "@react-navigation/core": {
-      "name": "@react-navigation/core",
-      "version": "7.24.0",
-      "nativeModule": false
-    },
     "stacktrace-parser": {
       "name": "stacktrace-parser",
       "version": "0.1.11",
@@ -260,14 +260,14 @@
       "version": "2.3.1",
       "nativeModule": false
     },
-    "parse5": {
-      "name": "parse5",
-      "version": "7.3.0",
-      "nativeModule": false
-    },
     "mux.js": {
       "name": "mux.js",
       "version": "6.3.0",
+      "nativeModule": false
+    },
+    "scheduler": {
+      "name": "scheduler",
+      "version": "0.28.0",
       "nativeModule": false
     },
     "use-latest-callback": {
@@ -280,14 +280,14 @@
       "version": "58.0.29",
       "nativeModule": true
     },
-    "scheduler": {
-      "name": "scheduler",
-      "version": "0.28.0",
+    "parse5": {
+      "name": "parse5",
+      "version": "7.3.0",
       "nativeModule": false
     },
-    "@gorhom/portal": {
-      "name": "@gorhom/portal",
-      "version": "1.0.14",
+    "@shopify/flash-list": {
+      "name": "@shopify/flash-list",
+      "version": "2.3.3",
       "nativeModule": false
     },
     "expo": {
@@ -295,9 +295,9 @@
       "version": "58.0.22",
       "nativeModule": true
     },
-    "@shopify/flash-list": {
-      "name": "@shopify/flash-list",
-      "version": "2.3.3",
+    "@gorhom/portal": {
+      "name": "@gorhom/portal",
+      "version": "1.0.14",
       "nativeModule": false
     },
     "react-native-svg": {
@@ -315,6 +315,11 @@
       "version": "7.6.5",
       "nativeModule": false
     },
+    "@react-native-documents/viewer": {
+      "name": "@react-native-documents/viewer",
+      "version": "4.0.2",
+      "nativeModule": true
+    },
     "http-status-codes": {
       "name": "http-status-codes",
       "version": "2.3.0",
@@ -325,34 +330,9 @@
       "version": "2.9.45",
       "nativeModule": false
     },
-    "@react-native-documents/viewer": {
-      "name": "@react-native-documents/viewer",
-      "version": "4.0.2",
-      "nativeModule": true
-    },
     "fast-deep-equal": {
       "name": "fast-deep-equal",
       "version": "3.1.3",
-      "nativeModule": false
-    },
-    "expo-asset": {
-      "name": "expo-asset",
-      "version": "58.0.19",
-      "nativeModule": true
-    },
-    "graphemer": {
-      "name": "graphemer",
-      "version": "1.4.0",
-      "nativeModule": false
-    },
-    "react-native-webview": {
-      "name": "react-native-webview",
-      "version": "14.0.1",
-      "nativeModule": true
-    },
-    "jsonpath-rfc9535": {
-      "name": "jsonpath-rfc9535",
-      "version": "1.3.0",
       "nativeModule": false
     },
     "global": {
@@ -360,9 +340,34 @@
       "version": "4.4.0",
       "nativeModule": false
     },
+    "expo-asset": {
+      "name": "expo-asset",
+      "version": "58.0.19",
+      "nativeModule": true
+    },
+    "react-native-webview": {
+      "name": "react-native-webview",
+      "version": "14.0.1",
+      "nativeModule": true
+    },
+    "graphemer": {
+      "name": "graphemer",
+      "version": "1.4.0",
+      "nativeModule": false
+    },
+    "jsonpath-rfc9535": {
+      "name": "jsonpath-rfc9535",
+      "version": "1.3.0",
+      "nativeModule": false
+    },
     "escape-string-regexp": {
       "name": "escape-string-regexp",
       "version": "4.0.0",
+      "nativeModule": false
+    },
+    "react-reconciler": {
+      "name": "react-reconciler",
+      "version": "0.31.0",
       "nativeModule": false
     },
     "@kesha-antonov/react-native-background-downloader": {
@@ -375,20 +380,15 @@
       "version": "58.0.16",
       "nativeModule": true
     },
-    "expo-video": {
-      "name": "expo-video",
-      "version": "58.0.13",
-      "nativeModule": true
-    },
     "expo-brightness": {
       "name": "expo-brightness",
       "version": "58.0.2",
       "nativeModule": true
     },
-    "react-reconciler": {
-      "name": "react-reconciler",
-      "version": "0.31.0",
-      "nativeModule": false
+    "expo-video": {
+      "name": "expo-video",
+      "version": "58.0.13",
+      "nativeModule": true
     },
     "color": {
       "name": "color",
@@ -435,11 +435,6 @@
       "version": "58.0.14",
       "nativeModule": true
     },
-    "@ungap/structured-clone": {
-      "name": "@ungap/structured-clone",
-      "version": "1.3.1",
-      "nativeModule": false
-    },
     "color-name": {
       "name": "color-name",
       "version": "1.1.4",
@@ -448,6 +443,11 @@
     "simple-swizzle": {
       "name": "simple-swizzle",
       "version": "0.2.4",
+      "nativeModule": false
+    },
+    "@ungap/structured-clone": {
+      "name": "@ungap/structured-clone",
+      "version": "1.3.1",
       "nativeModule": false
     },
     "warn-once": {

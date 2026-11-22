@@ -1,7 +1,7 @@
 {
   "type": "app",
   "entry": "./src/index.tsx",
-  "version": "1.9.1259",
+  "version": "1.9.1264",
   "name": "洛雪音乐",
   "appid": "htyfappfa88ca03300e6ed10794b74ea5d92bf4",
   "rotate": "auto",
